@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2019-03-13T11:01:43+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">rekeryang</title><subtitle>欢迎我的博客</subtitle><author><name>Rekeryang</name></author><entry><title type="html">github+jekyll搭建个人博客</title><link href="http://localhost:4000/2019/03/09/github+Jekyll-blog.html" rel="alternate" type="text/html" title="github+jekyll搭建个人博客" /><published>2019-03-09T11:40:18+08:00</published><updated>2019-03-09T11:40:18+08:00</updated><id>http://localhost:4000/2019/03/09/github+Jekyll-blog</id><content type="html" xml:base="http://localhost:4000/2019/03/09/github+Jekyll-blog.html">&lt;ul id=&quot;markdown-toc&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2019-03-13T11:18:03+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">rekeryang</title><subtitle>欢迎我的博客</subtitle><author><name>Rekeryang</name></author><entry><title type="html">github+jekyll搭建个人博客</title><link href="http://localhost:4000/2019/03/09/github+Jekyll-blog.html" rel="alternate" type="text/html" title="github+jekyll搭建个人博客" /><published>2019-03-09T11:40:18+08:00</published><updated>2019-03-09T11:40:18+08:00</updated><id>http://localhost:4000/2019/03/09/github+Jekyll-blog</id><content type="html" xml:base="http://localhost:4000/2019/03/09/github+Jekyll-blog.html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#1环境配置&quot; id=&quot;markdown-toc-1环境配置&quot;&gt;1.环境配置&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2建立博客&quot; id=&quot;markdown-toc-2建立博客&quot;&gt;2.建立博客&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#3使用模板&quot; id=&quot;markdown-toc-3使用模板&quot;&gt;3.使用模板&lt;/a&gt;&lt;/li&gt;
@@ -81,6 +81,1499 @@ Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
       &lt;td&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/rekeryang/jekyll-text-theme/blob/master/README-zh.md&quot;&gt;中文&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>rekeryang</name></author><category term="jekyll" /><category term="github" /><category term="markdown" /><category term="前端" /><category term="blog" /><category term="RubyGems" /><category term="HTML" /><category term="CSS" /><summary type="html">1.环境配置 2.建立博客 3.使用模板 1.环境配置 参考Jekyll官方文档 我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！ 1.安装ruby sudo apt-get install ruby-full build-essential zlib1g-dev 2.配置环境变量 echo '# Install Ruby Gems to ~/gems' &amp;gt;&amp;gt; ~/.bashrc echo 'export GEM_HOME=&quot;$HOME/gems&quot;' &amp;gt;&amp;gt; ~/.bashrc echo 'export PATH=&quot;$HOME/gems/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.bashrc source ~/.bashrc 3.安装jekyll gem install jekyll bundler 4.验证结果 ruby -v jekyll -h puskar@puskar-hrms:~$ ruby -v ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu] puskar@puskar-hrms:~$ jekyll -h jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby 2.建立博客 jekyll new myblog cd myblog bundle exec jekyll server puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml Source: /home/puskar/文档/github/jekyll-text-theme Destination: /home/puskar/文档/github/jekyll-text-theme/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 5.099 seconds. Auto-regeneration: enabled for '/home/puskar/文档/github/jekyll-text-theme' Server address: http://127.0.0.1:4000 Server running... press ctrl-c to stop. 在浏览器中录入 http://localhost:4000，查看结果 3.使用模板 git clone https://github.com/Rekeryang/jekyll.github.io.git Change Log 中文</summary></entry><entry><title type="html">Post with Header Image</title><link href="http://localhost:4000/2018/06/01/header-image.html" rel="alternate" type="text/html" title="Post with Header Image" /><published>2018-06-01T00:00:00+08:00</published><updated>2018-06-01T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/01/header-image</id><content type="html" xml:base="http://localhost:4000/2018/06/01/header-image.html">&lt;p&gt;A Post with Header Image, See &lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/samples.html#page-layout&quot;&gt;Page layout&lt;/a&gt; for more examples.&lt;/p&gt;
+&lt;/table&gt;</content><author><name>rekeryang</name></author><category term="jekyll" /><category term="github" /><category term="markdown" /><category term="前端" /><category term="blog" /><category term="RubyGems" /><category term="HTML" /><category term="CSS" /><summary type="html">1.环境配置 2.建立博客 3.使用模板 1.环境配置 参考Jekyll官方文档 我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！ 1.安装ruby sudo apt-get install ruby-full build-essential zlib1g-dev 2.配置环境变量 echo '# Install Ruby Gems to ~/gems' &amp;gt;&amp;gt; ~/.bashrc echo 'export GEM_HOME=&quot;$HOME/gems&quot;' &amp;gt;&amp;gt; ~/.bashrc echo 'export PATH=&quot;$HOME/gems/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.bashrc source ~/.bashrc 3.安装jekyll gem install jekyll bundler 4.验证结果 ruby -v jekyll -h puskar@puskar-hrms:~$ ruby -v ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu] puskar@puskar-hrms:~$ jekyll -h jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby 2.建立博客 jekyll new myblog cd myblog bundle exec jekyll server puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml Source: /home/puskar/文档/github/jekyll-text-theme Destination: /home/puskar/文档/github/jekyll-text-theme/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 5.099 seconds. Auto-regeneration: enabled for '/home/puskar/文档/github/jekyll-text-theme' Server address: http://127.0.0.1:4000 Server running... press ctrl-c to stop. 在浏览器中录入 http://localhost:4000，查看结果 3.使用模板 git clone https://github.com/Rekeryang/jekyll.github.io.git Change Log 中文</summary></entry><entry><title type="html">快速开始</title><link href="http://localhost:4000/docs/zh/quick-start" rel="alternate" type="text/html" title="快速开始" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/1.1-quick-start</id><content type="html" xml:base="http://localhost:4000/docs/zh/quick-start">&lt;p&gt;TeXt 是一款 100% 兼容 GitHub Pages 的 Jekyll 主题，你可以通过 Fork、下载或主题等方式安装。&lt;/p&gt;
 
-&lt;!--more--&gt;</content><author><name>Rekeryang</name></author><category term="TeXt" /><summary type="html">A Post with Header Image, See Page layout for more examples.</summary></entry></feed>
+&lt;p&gt;在这篇文章中，你将学到如何&lt;strong&gt;安装设置主题&lt;/strong&gt;，通过&lt;strong&gt;本地预览&lt;/strong&gt;进行开发以及&lt;strong&gt;编译&lt;/strong&gt;和&lt;strong&gt;发布&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
+
+&lt;h3 id=&quot;普通方式&quot;&gt;普通方式&lt;/h3&gt;
+
+&lt;p&gt;这种方式要求你的项目里包含所有的主题文件，你可以通过以下途径来安装：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;从 GitHub 克隆 &lt;a href=&quot;https://github.com/rekeryang/jekyll-text-theme&quot;&gt;jekyll-text-theme&lt;/a&gt; 项目:&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;通过 HTTPS 方式克隆：&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/rekeryang/jekyll-text-theme.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;strong&gt;通过 SSH 方式克隆：&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone git@github.com:rekeryang/jekyll-text-theme.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;下载主题压缩包并解压到你的项目目录中：&lt;/p&gt;
+
+    &lt;p&gt;&lt;a class=&quot;button button--success button--rounded&quot; href=&quot;https://github.com/rekeryang/jekyll-text-theme/archive/master.zip&quot;&gt;&lt;i class=&quot;fas fa-download&quot;&gt;&lt;/i&gt; 下载 TeXt 主题&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果你打算在 GitHub Pages 上搭建你的网站，你可以直接 fork &lt;a href=&quot;https://github.com/rekeryang/jekyll-text-theme&quot;&gt;jekyll-text-theme&lt;/a&gt; 到你的仓库，然后将其重命名为 &lt;strong&gt;USERNAME.github.io&lt;/strong&gt; — 这里的 &lt;strong&gt;USERNAME&lt;/strong&gt; 是你的 GitHub 用户名。&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/github-fork.jpg&quot; alt=&quot;Fork&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/github-rename-repo.jpg&quot; alt=&quot;Rename&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;主题方式&quot;&gt;主题方式&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;若要安装一套主题，请先将该主题添加到您站点的 &lt;em&gt;Gemfile&lt;/em&gt; 文件中：&lt;/p&gt;
+
+    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll-text-theme&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;向站点的 &lt;em&gt;_config.yml&lt;/em&gt; 中加入下列代码来启用主题：&lt;/p&gt;
+
+    &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-text-theme&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;最后，执行命令行 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; 来安装主题和其他的相关依赖。&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;设置&quot;&gt;设置&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;这里仅针对主题方式的安装，普通方式安装请跳过。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll 主题含有主题默认的布局文件、包含文件和样式表， 但是有些目录（例如&lt;em&gt;assets&lt;/em&gt;, &lt;em&gt;_layouts&lt;/em&gt;, &lt;em&gt;_includes&lt;/em&gt; 以及 &lt;em&gt;_sass&lt;/em&gt; 目录）需要手动添加到项目目录中，这样的好处在于将主题的文件和站点的内容和配置隔离开来，方便主题的升级。&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;├── 404.html
+├── Gemfile
+├── _config.yml
+├── _data
+│   └── locale.yml
+├── _posts
+│   └── ...
+├── about.md
+├── archive.html
+└── index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;你可以参考主题源码的 &lt;a href=&quot;https://github.com/rekeryang/jekyll-text-theme/tree/master/test&quot;&gt;/test 目录&lt;/a&gt;, 这是一个使用主题的示例。&lt;/p&gt;
+
+&lt;h2 id=&quot;本地预览&quot;&gt;本地预览&lt;/h2&gt;
+
+&lt;p&gt;Jekyll 集成了一个开发用的服务器，可以让你使用浏览器在本地进行预览。&lt;/p&gt;
+
+&lt;p&gt;通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; 命令启动开发服务器，然后你就可以访问 &lt;a href=&quot;http://localhost:4000/&quot;&gt;http://localhost:4000/&lt;/a&gt; 预览你的网站了。&lt;/p&gt;
+
+&lt;h2 id=&quot;编译和发布&quot;&gt;编译和发布&lt;/h2&gt;
+
+&lt;p&gt;如果你打算把网站搭建在 GitHub Pages 上，那你所需要做的就是将项目的源码上传到 USERNAME.github.io 源码仓库的 master 分支，GitHub 会自动的编译，几分钟后你就可以通过 &lt;strong&gt;https://USERNAME.github.io&lt;/strong&gt; 访问到你的网站了。&lt;/p&gt;
+
+&lt;p&gt;如果你的网站是搭建在其他服务器上的，那么你就需要来自己编译了。首先运行命令 &lt;code class=&quot;highlighter-rouge&quot;&gt;JEKYLL_ENV=production bundle exec jekyll build&lt;/code&gt; 编译你的网站，然后将编译的文件（位于 &lt;em&gt;_site&lt;/em&gt; 目录）更新到你的服务器上。&lt;/p&gt;</content><author><name>Rekeryang</name></author><summary type="html">TeXt 是一款 100% 兼容 GitHub Pages 的 Jekyll 主题，你可以通过 Fork、下载或主题等方式安装。 在这篇文章中，你将学到如何安装设置主题，通过本地预览进行开发以及编译和发布。</summary></entry><entry><title type="html">从 1.x 升级到 2.x</title><link href="http://localhost:4000/docs/zh/update-from-1-to-2" rel="alternate" type="text/html" title="从 1.x 升级到 2.x" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/1.7-update-from-1-to-2</id><content type="html" xml:base="http://localhost:4000/docs/zh/update-from-1-to-2">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/TeXt-version-2.jpg&quot; alt=&quot;TeXt 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;经过几个月的努力，&lt;strong&gt;TeXt 2&lt;/strong&gt; 终于发布了，第二版在第一版的基础上做了大量的重构与更改，这也导致了一些配置的不兼容。希望这篇文档能对你的升级起到一些帮助，感谢你们的支持。&lt;/p&gt;
+
+&lt;h2 id=&quot;皮肤&quot;&gt;皮肤&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;_config.yml&lt;/em&gt; 中 &lt;code class=&quot;highlighter-rouge&quot;&gt;text_color_theme&lt;/code&gt; 配置项更名为 &lt;code class=&quot;highlighter-rouge&quot;&gt;text_skin&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;1.x:&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;text_color_theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;forest&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;text_skin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;forest&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;layout&quot;&gt;Layout&lt;/h2&gt;
+
+&lt;h3 id=&quot;article-布局&quot;&gt;Article 布局&lt;/h3&gt;
+
+&lt;p&gt;“Post 布局”和“Page 布局”更名为“Article 布局”。&lt;/p&gt;
+
+&lt;p&gt;1.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;page&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;article&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;由于新的“Article 布局”默认不显示 Toc、在 GitHub 上编辑按钮、许可协议和阅读量。为了和之前的“Post 布局”保持一致，可以在头信息里设置：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;license&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;aside&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;toc&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;show_edit_on_github&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;pageview&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;你也可以在 &lt;em&gt;_config.yml&lt;/em&gt; 中设置 posts 类型的&lt;a href=&quot;https://jekyllrb.com/docs/configuration/#front-matter-defaults&quot;&gt;默认值&lt;/a&gt;：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;defaults&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;posts&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;article&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;license&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;aside&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;toc&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;show_edit_on_github&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;pageview&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;archive-布局&quot;&gt;Archive 布局&lt;/h3&gt;
+
+&lt;p&gt;原有的“All 布局”更名为“Archive 布局”。&lt;/p&gt;
+
+&lt;p&gt;1.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;all&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;archive&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;paths&quot;&gt;Paths&lt;/h2&gt;
+
+&lt;p&gt;为了保持和布局命名的一致性，新版将原有的 &lt;em&gt;all.html&lt;/em&gt; 更名为 &lt;em&gt;archive.html&lt;/em&gt;。&lt;em&gt;_config.yml&lt;/em&gt; 中 &lt;code class=&quot;highlighter-rouge&quot;&gt;paths&lt;/code&gt; 的配置项 &lt;code class=&quot;highlighter-rouge&quot;&gt;base&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;all&lt;/code&gt; 分别更名为 &lt;code class=&quot;highlighter-rouge&quot;&gt;root&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;archive&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;1.x:&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;base    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;all     &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/all.html&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;rss     &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/feed.xml&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2.x:&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;root    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;home    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;archive &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/archive.html&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;rss     &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/feed.xml&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;许可协议&quot;&gt;许可协议&lt;/h2&gt;
+
+&lt;p&gt;对于许可协议，你还需要在 &lt;em&gt;_config.yml&lt;/em&gt; 中指定使用的许可协议, 默认为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 不显示：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;license&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;CC-BY-4.0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;评论&quot;&gt;评论&lt;/h2&gt;
+
+&lt;p&gt;新版对评论、文章点击量和站点统计在 &lt;em&gt;_config.yml&lt;/em&gt; 中的配置做了一些变化，主要是增加了 &lt;code class=&quot;highlighter-rouge&quot;&gt;provider&lt;/code&gt; 属性，并且将对应的提供方变为对应的子配置项。&lt;/p&gt;
+
+&lt;p&gt;1.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;kitian616-github-io&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;disqus&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;kitian616-github-io&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;文章点击量&quot;&gt;文章点击量&lt;/h2&gt;
+
+&lt;p&gt;1.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;leancloud&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;app_id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;app_key&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Mzf5m9skSwYVWVXhGiYMNyXs&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;app_class&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ThomasBlog&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;pageview&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;leancloud&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;leancloud&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_key&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Mzf5m9skSwYVWVXhGiYMNyXs&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_class&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ThomasBlog&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;站点统计&quot;&gt;站点统计&lt;/h2&gt;
+
+&lt;p&gt;1.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;ga_tracking_id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;UA-71907556-1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;2.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;analytics&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;google&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;tracking_id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;UA-71907556-1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;logo-和-favicon&quot;&gt;Logo 和 Favicon&lt;/h2&gt;
+
+&lt;p&gt;默认 Logo 的位置发生了变化。移除了之前的图标生成工具，新版推荐使用 &lt;a href=&quot;https://realfavicongenerator.net/&quot;&gt;RealFaviconGenerator&lt;/a&gt; 来生成 Favicon。&lt;/p&gt;
+
+&lt;h2 id=&quot;导航&quot;&gt;导航&lt;/h2&gt;
+
+&lt;p&gt;网站右上的导航配置移到了 &lt;em&gt;_data/navigation.yml&lt;/em&gt; 中，在新版中整个导航都可以自由定制了。&lt;/p&gt;
+
+&lt;p&gt;1.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;nav_lists&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;titles&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;关于&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hans&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;关于&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hant&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;關於&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/about.html&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2.x：&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;## _data/navigation.yml&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;titles&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;Archive&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;归档&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hans&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;归档&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hant&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;歸檔&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s&quot;&gt;/blog/archive.html&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;titles&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;关于&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hans&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;关于&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hant&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;關於&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s&quot;&gt;/blog/about.html&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rekeryang</name></author><summary type="html">经过几个月的努力，TeXt 2 终于发布了，第二版在第一版的基础上做了大量的重构与更改，这也导致了一些配置的不兼容。希望这篇文档能对你的升级起到一些帮助，感谢你们的支持。 皮肤 _config.yml 中 text_color_theme 配置项更名为 text_skin。 1.x: text_color_theme: forest text_skin: forest Layout Article 布局 “Post 布局”和“Page 布局”更名为“Article 布局”。 1.x： layout: post layout: page 2.x： layout: article 由于新的“Article 布局”默认不显示 Toc、在 GitHub 上编辑按钮、许可协议和阅读量。为了和之前的“Post 布局”保持一致，可以在头信息里设置： license: true aside: toc: true show_edit_on_github: true pageview: true 你也可以在 _config.yml 中设置 posts 类型的默认值： defaults: - scope: path: &quot;&quot; type: posts values: layout: article license: true aside: toc: true show_edit_on_github: true pageview: true Archive 布局 原有的“All 布局”更名为“Archive 布局”。 1.x： layout: all 2.x： layout: archive Paths 为了保持和布局命名的一致性，新版将原有的 all.html 更名为 archive.html。_config.yml 中 paths 的配置项 base 和 all 分别更名为 root 和 archive。 1.x: paths: base : /blog all : /blog/all.html rss : /feed.xml 2.x: paths: root : /blog home : /blog archive : /blog/archive.html rss : /feed.xml 许可协议 对于许可协议，你还需要在 _config.yml 中指定使用的许可协议, 默认为 false 不显示： license: CC-BY-4.0 评论 新版对评论、文章点击量和站点统计在 _config.yml 中的配置做了一些变化，主要是增加了 provider 属性，并且将对应的提供方变为对应的子配置项。 1.x： disqus: shortname: kitian616-github-io 2.x： comments: provider: disqus disqus: shortname: kitian616-github-io 文章点击量 1.x： leancloud: app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz app_key: Mzf5m9skSwYVWVXhGiYMNyXs app_class: ThomasBlog 2.x： pageview: provider: leancloud leancloud: app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz app_key: Mzf5m9skSwYVWVXhGiYMNyXs app_class: ThomasBlog 站点统计 1.x： ga_tracking_id: UA-71907556-1 2.x： analytics: provider: google google: tracking_id: UA-71907556-1 Logo 和 Favicon 默认 Logo 的位置发生了变化。移除了之前的图标生成工具，新版推荐使用 RealFaviconGenerator 来生成 Favicon。 导航 网站右上的导航配置移到了 _data/navigation.yml 中，在新版中整个导航都可以自由定制了。 1.x： nav_lists: - titles: en: About zh: 关于 zh-Hans: 关于 zh-Hant: 關於 url: /blog/about.html 2.x： ## _data/navigation.yml header: - titles: en: Archive zh: 归档 zh-Hans: 归档 zh-Hant: 歸檔 url: /blog/archive.html - titles: en: About zh: 关于 zh-Hans: 关于 zh-Hant: 關於 url: /blog/about.html</summary></entry><entry><title type="html">配置</title><link href="http://localhost:4000/docs/zh/configuration" rel="alternate" type="text/html" title="配置" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/2.1-configuration</id><content type="html" xml:base="http://localhost:4000/docs/zh/configuration">&lt;p&gt;Jekyll 允许你很轻松的设计你的网站，这很大程度上归功于灵活强大的配置功能。既可以配置在网站根目录下的  &lt;em&gt;_config.yml&lt;/em&gt; 文件，也可以作为命令行的标记来配置。&lt;/p&gt;
+
+&lt;p class=&quot;warning&quot;&gt;&lt;em&gt;_config.yml&lt;/em&gt; 包括一些在运行时一次性读入的全局配置和变量定义， 在自动生成的过程中并&lt;strong&gt;不会&lt;/strong&gt;重新加载，除非重新运行。注意 Data Files 包括在自动生成范围内，可以在更改后自动重新加载。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;网站配置项&quot;&gt;网站配置项&lt;/h2&gt;
+
+&lt;h3 id=&quot;主题&quot;&gt;主题&lt;/h3&gt;
+
+&lt;p&gt;如果是通过主题方式安装的，你需要这样配置以启用主题:&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-text-theme&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;皮肤&quot;&gt;皮肤&lt;/h3&gt;
+
+&lt;p&gt;TeXt 内置有 6 套皮肤，你也可以定制自己的皮肤。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;default&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dark&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;forest&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_default.jpg&quot; alt=&quot;Default&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_dark.jpg&quot; alt=&quot;Dark&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_forest.jpg&quot; alt=&quot;Forest&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ocean&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chocolate&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;orange&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_ocean.jpg&quot; alt=&quot;Ocean&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_chocolate.jpg&quot; alt=&quot;Chocolate&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_orange.jpg&quot; alt=&quot;Orange&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;text_skin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;default&quot; (default), &quot;dark&quot;, &quot;forest&quot;, &quot;ocean&quot;, &quot;chocolate&quot;, &quot;orange&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;代码高亮主题&quot;&gt;代码高亮主题&lt;/h3&gt;
+
+&lt;p&gt;TeXt 使用 &lt;a href=&quot;https://github.com/chriskempson/tomorrow-theme&quot;&gt;Tomorrow&lt;/a&gt; 作为它的代码高亮主题。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow-night&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow-night-eighties&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow-night-blue&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow-night-bright&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow.png&quot; alt=&quot;Tomorrow&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night.png&quot; alt=&quot;Tomorrow Night&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-eighties.png&quot; alt=&quot;Tomorrow Night Eighties&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-blue.png&quot; alt=&quot;Tomorrow Night Blue&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-bright.png&quot; alt=&quot;Tomorrow Night Bright&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;每个皮肤有一个默认的代码高亮主题，当然你可以通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;highlight_theme&lt;/code&gt; 配置项来指定其他主题。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;highlight_theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;default&quot; (default), &quot;tomorrow&quot;, &quot;tomorrow-night&quot;, &quot;tomorrow-night-eighties&quot;, &quot;tomorrow-night-blue&quot;, &quot;tomorrow-night-bright&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;url&quot;&gt;URL&lt;/h3&gt;
+
+&lt;p&gt;网站的协议和域名。&lt;/p&gt;
+
+&lt;p&gt;如果你的网站是搭建在 Github Pages 上的，这个只会被设置为 GitHub Pages 域名（CNAME 或个人域名）&lt;sup id=&quot;fnref:gitHub_metadata&quot;&gt;&lt;a href=&quot;#fn:gitHub_metadata&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. 举个例子, https://kitian616.github.io 或者 https://rekeryang.com 如果设置了 CNAME。&lt;/p&gt;
+
+&lt;p class=&quot;warning&quot;&gt;在 3.3 及更高版本的 Jekyll 中运行 &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; 命令会在开发模式时将其设置为 url: http://localhost:4000，你可以通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;JEKYLL_ENV=production&lt;/code&gt; 设置生产环境。&lt;/p&gt;
+
+&lt;h3 id=&quot;base-url&quot;&gt;Base URL&lt;/h3&gt;
+
+&lt;p&gt;网站的根路径，不包含域名，其默认值为“/”。如果你的网站是搭建在 Github Pages 上的，那么这个值会默认设置为网站对应的项目名&lt;sup id=&quot;fnref:gitHub_metadata:1&quot;&gt;&lt;a href=&quot;#fn:gitHub_metadata&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;网站标题&quot;&gt;网站标题&lt;/h3&gt;
+
+&lt;p&gt;网站的标题。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;My&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Awesome&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Website&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;网站描述&quot;&gt;网站描述&lt;/h3&gt;
+
+&lt;p&gt;使用一些简短的语言来描述你的网站。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# this means to ignore newlines until &quot;nav_lists:&quot;&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;A website with awesome stories.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;语言与时区&quot;&gt;语言与时区&lt;/h2&gt;
+
+&lt;h3 id=&quot;语言&quot;&gt;语言&lt;/h3&gt;
+
+&lt;p&gt;网站的语言，当然你可以在头信息&lt;sup id=&quot;fnref:font_matter&quot;&gt;&lt;a href=&quot;#fn:font_matter&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;里指定特定的文章或页面的语言，你可以在&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/i18n&quot;&gt;国际化&lt;/a&gt;找到更多信息。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;en&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;时区&quot;&gt;时区&lt;/h3&gt;
+
+&lt;p&gt;设置时区，这个设置作用于 TZ 变量， Ruby 用它来处理日期和时间。使用 IANA Time Zone Database 标准，比如 America/New_York 。其默认值为操作系统的时区。可以在 &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_tz_database_time_zones&quot;&gt;这里&lt;/a&gt; 找到可取的值。&lt;sup id=&quot;fnref:jekyll_global_configuration&quot;&gt;&lt;a href=&quot;#fn:jekyll_global_configuration&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;timezone&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Asia/Shanghai&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;作者信息&quot;&gt;作者信息&lt;/h2&gt;
+
+&lt;p&gt;网站作者的信息（可以是个人、团队或者组织）。&lt;/p&gt;
+
+&lt;h3 id=&quot;类型-type&quot;&gt;类型 (type)&lt;/h3&gt;
+
+&lt;p&gt;作者的类型，个人或者是组织，作为 &lt;a href=&quot;https://schema.org/&quot;&gt;schema.org&lt;/a&gt; 的语义化标记使用。&lt;/p&gt;
+
+&lt;h3 id=&quot;作者名-name&quot;&gt;作者名 (name)&lt;/h3&gt;
+
+&lt;p&gt;用来表明网站的作者。&lt;/p&gt;
+
+&lt;h3 id=&quot;头像-avatar&quot;&gt;头像 (avatar)&lt;/h3&gt;
+
+&lt;p&gt;作者的图片或 Logo。&lt;/p&gt;
+
+&lt;h3 id=&quot;简介-bio&quot;&gt;简介 (bio)&lt;/h3&gt;
+
+&lt;p&gt;关于作者的一个简单介绍。&lt;/p&gt;
+
+&lt;h3 id=&quot;社交&quot;&gt;社交&lt;/h3&gt;
+
+&lt;p&gt;社交网站的用户名或用户 ID。&lt;/p&gt;
+
+&lt;p&gt;目前支持邮件，微博，Facebook，Twitter，微博，Google Plus，Telegram，Medium，知乎，豆瓣，Linkedin，Github 和 Npm，持续添加中。&lt;/p&gt;
+
+&lt;p&gt;当你设置了相应项的值后，对应的社交按钮就会出现在页面下方。&lt;/p&gt;
+
+&lt;h2 id=&quot;github-源码仓库&quot;&gt;GitHub 源码仓库&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/github-metadata&quot;&gt;GitHub Metadata&lt;/a&gt; 插件的设置, 你可以在&lt;a href=&quot;https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration&quot;&gt;这里&lt;/a&gt;找到更多信息。&lt;/p&gt;
+
+&lt;p&gt;这个设置告诉 jekyll-github-metadata 插件应该从哪个项目中获取元数据，其格式为 &lt;code class=&quot;highlighter-rouge&quot;&gt;项目所有者 ID/项目名称&lt;/code&gt;，例如：rekeryang/jekyll-text-theme。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;user_name/repo_name&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;文章配置项&quot;&gt;文章配置项&lt;/h2&gt;
+
+&lt;h3 id=&quot;摘要&quot;&gt;摘要&lt;/h3&gt;
+
+&lt;p&gt;该主题的摘要有两种模式——TEXT 模式和 HTML 模式。 当 &lt;em&gt;_config.yml&lt;/em&gt; 配置项 &lt;code class=&quot;highlighter-rouge&quot;&gt;excerpt_type&lt;/code&gt; 的值为 &lt;code class=&quot;highlighter-rouge&quot;&gt;text&lt;/code&gt; 时是 TEXT 模式，为 &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt; 时是 HTML 模式，&lt;strong&gt;默认为 TEXT 模式&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;模式名称&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;text&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;此时摘要为纯文本，会过滤掉一切非文本元素（标题，链接，列表，表格，图片等等），且截取前 350 个字符。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;html&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;此时摘要为 HTML 文档，与文章内容一致，并且 &lt;strong&gt;默认展示整篇文章的内容&lt;/strong&gt;。若想控制摘要内容，需要在文章中想要显示到的地方加上 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;，详情请戳&lt;a href=&quot;https://jekyllrb.com/docs/posts/#post-excerpts&quot;&gt;这里&lt;/a&gt;。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;excerpt_separator&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;!--more--&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;excerpt_type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# text (default), html&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;error&quot;&gt;该设置在 2.2.0 版中移到了 Articles 和 Home 布局的头信息中，你可以在&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/cn/layouts#articles-layout&quot;&gt;这里&lt;/a&gt;找到更多信息.&lt;/p&gt;
+
+&lt;h3 id=&quot;许可协议&quot;&gt;许可协议&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;名称&lt;/th&gt;
+      &lt;th&gt;许可协议&lt;/th&gt;
+      &lt;th&gt;图片&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CC-BY-4.0&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;Attribution 4.0 International&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://i.creativecommons.org/l/by/4.0/88x31.png&quot; alt=&quot;CC-BY-4.0&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CC-BY-SA-4.0&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;Attribution-ShareAlike 4.0 International&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; alt=&quot;CC-BY-SA-4.0&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CC-BY-NC-4.0&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Attribution-NonCommercial 4.0 International&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; alt=&quot;CC-BY-NC-4.0&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CC-BY-ND-4.0&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by-nd/4.0/&quot;&gt;Attribution-NoDerivatives 4.0 International&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://i.creativecommons.org/l/by-nd/4.0/88x31.png&quot; alt=&quot;CC-BY-ND-4.0&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;license&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;CC-BY-NC-4.0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;目录&quot;&gt;目录&lt;/h3&gt;
+
+&lt;p&gt;作为文章目录的元素。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;toc&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;selectors&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;h1,h2,h3&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;markdown-增强&quot;&gt;Markdown 增强&lt;/h3&gt;
+
+&lt;p&gt;为了增强文章的写作和阅读体验，TeXt 对 Jekyll 现有的 markdown 做了一些增强。当然这些增强都是默认禁止的，你需要设置相应的配置项为 true 来启动它们：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Mathjax&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;mathjax_autoNumber&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Mermaid&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;mermaid&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Chart&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;chart&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;当然你也可以为某一篇文章或页面通过头信息&lt;sup id=&quot;fnref:font_matter:1&quot;&gt;&lt;a href=&quot;#fn:font_matter&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;来做单独的指定。&lt;/p&gt;
+
+&lt;p&gt;在 &lt;a href=&quot;/&quot;&gt;撰写博客&lt;/a&gt; 篇中有更详细的使用说明。&lt;/p&gt;
+
+&lt;h2 id=&quot;分页&quot;&gt;分页&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll-paginate&quot;&gt;Jekyll Paginate&lt;/a&gt; 插件的配置。&lt;/p&gt;
+
+&lt;p&gt;要想对文章列表做分页，你需要在 &lt;em&gt;_config.yml&lt;/em&gt; 文件中配置每页显示的文章数：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;8&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这个数字代表了文章列表页每页显示的最大文章数。&lt;/p&gt;
+
+&lt;p&gt;你也可以像这样指定分页页面的地址：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;paginate_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/page:num&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# don't change this unless for special need&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;cdn-源&quot;&gt;CDN 源&lt;/h2&gt;
+
+&lt;p&gt;TeXt 使用 CDN&lt;sup id=&quot;fnref:cdn&quot;&gt;&lt;a href=&quot;#fn:cdn&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; 来加快载入速度，你可以选择 &lt;a href=&quot;http://www.bootcdn.cn/&quot;&gt;BootCDN&lt;/a&gt;（默认项）或者&lt;a href=&quot;https://unpkg.com/&quot;&gt;unpkg&lt;/a&gt;作为网站的 CDN 源。它们都是开源而免费的。&lt;/p&gt;
+
+&lt;p&gt;国内用户请优先使用 BootCDN。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;sources&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bootcdn&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# bootcdn (default), unpkg&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;分享&quot;&gt;分享&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;名称&lt;/th&gt;
+      &lt;th&gt;分享系统提供方&lt;/th&gt;
+      &lt;th&gt;最低版本&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;addtoany&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.addtoany.com/&quot;&gt;AddToAny&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;2.2.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;addthis&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.addthis.com/&quot;&gt;AddThis&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;2.2.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;custom&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;addtoany&quot;&gt;AddToAny&lt;/h3&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;addtoany&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;addthis&quot;&gt;AddThis&lt;/h3&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;addthis&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;addthis&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-addthis-pubid&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;warning&quot;&gt;你需要在页面的头信息里设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;sharing&lt;/code&gt; 属性为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 来开启该页的评论，详情请戳&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/layouts#article-%E5%B8%83%E5%B1%80&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;评论&quot;&gt;评论&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;名称&lt;/th&gt;
+      &lt;th&gt;评论系统提供方&lt;/th&gt;
+      &lt;th&gt;最低版本&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;disqus&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;gitalk&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/gitalk/gitalk/&quot;&gt;Gitalk&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;valine&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://valine.js.org/en/&quot;&gt;Valine&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;2.2.4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;custom&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;disqus&quot;&gt;Disqus&lt;/h3&gt;
+
+&lt;p&gt;要想启用 Disqus 作为评论系统，你需要注册一个 Disqus 账号然后申请一个针对该网站的 &lt;a href=&quot;https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-&quot;&gt;shortname&lt;/a&gt;，完成后将 shortname 填入到 &lt;em&gt;_config.yml&lt;/em&gt; 中：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;disqus&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-disqus-shortname&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;gitalk&quot;&gt;Gitalk&lt;/h3&gt;
+
+&lt;p&gt;要想启用 Gitalk 作为评论系统，首先你需要一个 GitHub Application，如果没有&lt;a href=&quot;https://github.com/settings/applications/new&quot;&gt;点击这里&lt;/a&gt;申请。然后将相应的参数添加到 &lt;em&gt;_config.yml&lt;/em&gt; 配置中：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;gitalk&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;gitalk&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;clientID    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;github-application-client-id&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;clientSecret&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;github-application-client-secret&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;repository  &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;github-repo&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;owner       &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;github-repo-owner&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;admin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-github-id&quot;&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;the-other-admin-github-id&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;valine&quot;&gt;Valine&lt;/h3&gt;
+
+&lt;p&gt;要想启用 Valine 作为评论系统，你需要注册一个 LeanCloud 账号然后建立一个 LeanCloud 应用，详情见 &lt;a href=&quot;#leancloud&quot;&gt;LeanCloud&lt;/a&gt;。因为 Valine 会自动在应用中建立一个 Class，因此并不需要像文章点击量那样手动建立 Class。&lt;/p&gt;
+
+&lt;p&gt;可以和&lt;a href=&quot;#文章点击量&quot;&gt;文章点击量&lt;/a&gt;公用一个 LeanCloud 应用。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;valine&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;valine&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_id  &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-leanCloud-app-id&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_key &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-leanCloud-app-key&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;warning&quot;&gt;对于上面所有的评论系统, 你都需要在页面的头信息里设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;key&lt;/code&gt; 属性来开启该页的评论，详情请戳&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/layouts#page-%E5%B8%83%E5%B1%80&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;文章点击量&quot;&gt;文章点击量&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;名称&lt;/th&gt;
+      &lt;th&gt;文章点击量后台提供方&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;leancloud&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://leancloud.cn/&quot;&gt;Disqus&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;custom&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;leancloud&quot;&gt;LeanCloud&lt;/h3&gt;
+
+&lt;p&gt;TeXt 使用 LeanCloud 作为点击量功能的后台服务。你需要建立一个 LeanCloud 应用，然后在应用中建立一个 Class，之后将必要的信息填写到 &lt;em&gt;_config.yml&lt;/em&gt; 文件中。下面详细介绍其操作步骤。&lt;/p&gt;
+
+&lt;p&gt;在进入&lt;a href=&quot;https://leancloud.cn/&quot;&gt;主页&lt;/a&gt;后点击页面右上角的“访问控制台”，然后注册账号并登录。&lt;/p&gt;
+
+&lt;p&gt;在应用面板存储子页中点击“创建应用”按钮，在弹出的对话框中填写应用名称，计价方案选择“开发版”（土豪随意），然后点击“创建”按钮创建应用。&lt;/p&gt;
+
+&lt;p&gt;创建完成后应用面板上会出现你刚刚创建的应用卡片，点击进入选择创建 Class：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/leancloud-create-class-0.jpg&quot; alt=&quot;Leancloud：创建 Class 0&quot; style=&quot;max-height:420px&quot; class=&quot;border&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在弹出的对话框中填写 Class 的名字，权限选择“无限制”，点击“创建 Class”按钮：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/leancloud-create-class-1.jpg&quot; alt=&quot;Leancloud：创建 Class 1&quot; style=&quot;max-height:620px&quot; class=&quot;border&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当然你可以随时更改 Class 的权限，在应用面板存储子页中选择想要修改的 Class，点击上面菜单的其他 -&amp;gt; 权限设置项，即可进入设置页：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/leancloud-authorization.jpg&quot; alt=&quot;Leancloud：权限设置&quot; style=&quot;max-height:300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最后点击应用面板右侧的“设置”，点击“应用 Key” 选项，即可得到对应的 APP ID 和 APP KEY：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/leancloud-app-info.jpg&quot; alt=&quot;Leancloud：App Info&quot; class=&quot;border&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;pageview&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;leancloud&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;leancloud&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_id    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-leanCloud-app-id&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_key   &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-leanCloud-app-key&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_class &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-leanCloud-app-class&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;warning&quot;&gt;对于上面所有的点击量统计, 你都需要在页面的头信息里设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;key&lt;/code&gt; 属性来开启该页的统计功能，详情请戳&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/layouts#page-%E5%B8%83%E5%B1%80&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;站点统计&quot;&gt;站点统计&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;名称&lt;/th&gt;
+      &lt;th&gt;站点统计提供方&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;google&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://analytics.google.com/&quot;&gt;Google Analytics&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;custom&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;google-analytics&quot;&gt;Google Analytics&lt;/h3&gt;
+
+&lt;p&gt;你需要将 &lt;code class=&quot;highlighter-rouge&quot;&gt;tracking_id&lt;/code&gt; 设置成你的 Google Analytics 账户中针对该网站的跟踪代码来启动这项功能。你也可以通过设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;anonymize_ip&lt;/code&gt; 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 将所有事件的 IP 地址匿名化。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;analytics&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;google&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;tracking_id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your-google-analytics-tracking-code&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;anonymize_ip&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:gitHub_metadata&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/github-metadata#what-it-does&quot;&gt;GitHub Metadata, a.k.a. site.github&lt;/a&gt; &lt;a href=&quot;#fnref:gitHub_metadata&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:gitHub_metadata:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:font_matter&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;Front Matter&lt;/a&gt; &lt;a href=&quot;#fnref:font_matter&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:font_matter:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:jekyll_global_configuration&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/configuration/#global-configuration&quot;&gt;Configuration#Global Configuration&lt;/a&gt; &lt;a href=&quot;#fnref:jekyll_global_configuration&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:cdn&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;Content delivery network&lt;/a&gt; &lt;a href=&quot;#fnref:cdn&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Rekeryang</name></author><summary type="html">Jekyll 允许你很轻松的设计你的网站，这很大程度上归功于灵活强大的配置功能。既可以配置在网站根目录下的 _config.yml 文件，也可以作为命令行的标记来配置。 _config.yml 包括一些在运行时一次性读入的全局配置和变量定义， 在自动生成的过程中并不会重新加载，除非重新运行。注意 Data Files 包括在自动生成范围内，可以在更改后自动重新加载。</summary></entry><entry><title type="html">导航栏</title><link href="http://localhost:4000/docs/zh/navigation" rel="alternate" type="text/html" title="导航栏" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/2.2-navigation</id><content type="html" xml:base="http://localhost:4000/docs/zh/navigation">&lt;p&gt;在 TeXt 中有两种导航栏：&lt;strong&gt;头部导航栏&lt;/strong&gt;（Header Navigation）和&lt;strong&gt;侧边栏导航栏&lt;/strong&gt;（Sidebar Navigation），它们均在 &lt;em&gt;data/navigation.yml&lt;/em&gt; 中配置。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;头部导航栏&quot;&gt;头部导航栏&lt;/h2&gt;
+
+&lt;p&gt;头部导航栏在 &lt;em&gt;data/navigation.yml&lt;/em&gt; 文件的 &lt;code class=&quot;highlighter-rouge&quot;&gt;header&lt;/code&gt; 项定义，它是一个包含标题和 URL 项的数组：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;s&quot;&gt;Docs&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s&quot;&gt;/docs/en/quick-start&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;s&quot;&gt;文档&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s&quot;&gt;/docs/zh/quick-start&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;titles&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;Archive&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;归档&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hans&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;归档&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hant&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;歸檔&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s&quot;&gt;/archive.html&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;titles&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;关于&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hans&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;关于&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;zh-Hant&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;關於&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s&quot;&gt;/about.html&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;s&quot;&gt;GitHub&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s&quot;&gt;https://github.com/rekeryang/jekyll-text-theme&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;你可以用 &lt;code class=&quot;highlighter-rouge&quot;&gt;titles&lt;/code&gt; 来定义一个支持多语言的标题名。&lt;/p&gt;
+
+&lt;h2 id=&quot;侧边栏导航栏&quot;&gt;侧边栏导航栏&lt;/h2&gt;
+
+&lt;p&gt;要想在某篇文章或页面中使用侧边栏导航栏，首先你需要在 &lt;em&gt;data/navigation.yml&lt;/em&gt; 中定义一个导航栏。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;docs-en&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;s&quot;&gt;Start&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;Quick Start&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;/docs/en/quick-start&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;Structure&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;/docs/en/structure&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;s&quot;&gt;Customization&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;Configuration&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;/docs/en/configuration&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;Navigation&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;/docs/en/navigation&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;然后在头信息中将定义的导航作为这篇文章或页面的侧边栏导航栏：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;sidebar&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;nav&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;docs-en&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rekeryang</name></author><summary type="html">在 TeXt 中有两种导航栏：头部导航栏（Header Navigation）和侧边栏导航栏（Sidebar Navigation），它们均在 data/navigation.yml 中配置。</summary></entry><entry><title type="html">布局</title><link href="http://localhost:4000/docs/zh/layouts" rel="alternate" type="text/html" title="布局" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/2.3-layouts</id><content type="html" xml:base="http://localhost:4000/docs/zh/layouts">&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TB;
+    NONE[none]
+    BASE[base]
+    PAGE[page]
+    ARTICLE[article]
+    ARTICLES[articles]
+    HOME[home]
+    ARCHIVE[archive]
+    LANDING[landing]
+    404[404]
+    NONE--&amp;gt;BASE;
+    BASE--&amp;gt;PAGE;
+    PAGE--&amp;gt;ARTICLE;
+    PAGE--&amp;gt;ARTICLES;
+    ARTICLES--&amp;gt;HOME;
+    PAGE--&amp;gt;ARCHIVE;
+    PAGE--&amp;gt;LANDING;
+    PAGE--&amp;gt;404;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;base-布局&quot;&gt;Base 布局&lt;/h2&gt;
+
+&lt;p&gt;继承于 None。&lt;/p&gt;
+
+&lt;h2 id=&quot;page-布局&quot;&gt;Page 布局&lt;/h2&gt;
+
+&lt;p&gt;继承于 Base 布局。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+      &lt;th&gt;最低版本&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;mode&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;normal (default), immersive&lt;/td&gt;
+      &lt;td&gt;该页的模式。&lt;/td&gt;
+      &lt;td&gt;2.2.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;type&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;webpage (default), article&lt;/td&gt;
+      &lt;td&gt;该页的类型, 作为 &lt;a href=&quot;https://schema.org/&quot;&gt;schema.org&lt;/a&gt; 的语义化标记使用。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;key&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;页面的唯一标识符，供评论系统和点击量统计使用。必须以字母（&lt;code class=&quot;highlighter-rouge&quot;&gt;[A-Za-z]&lt;/code&gt;）开头，其后可以接若干字母、数字（&lt;code class=&quot;highlighter-rouge&quot;&gt;[0-9]&lt;/code&gt;）、连字符（&lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;）、下划线（&lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt;）、冒号（&lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt;）和小数点（&lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;）。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;lang&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;en (default), zh, zh-Hans, zh-Hant&lt;/td&gt;
+      &lt;td&gt;该页的语言。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;author&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;将在 &lt;em&gt;authors.yml&lt;/em&gt; 中定义的作者作为某篇文章或页面的作者, 详情请看&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/authors&quot;&gt;作者&lt;/a&gt;。&lt;/td&gt;
+      &lt;td&gt;2.2.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_title&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true (default), false&lt;/td&gt;
+      &lt;td&gt;是否显示标题，默认显示，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 隐藏。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_edit_on_github&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;是否显示“在 Github 上修改”按钮，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 显示。你需要先在 &lt;em&gt;_config.yml&lt;/em&gt; 中设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;repository&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;repository_tree&lt;/code&gt;。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true (default), false&lt;/td&gt;
+      &lt;td&gt;是否展示该页的发布日期，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 隐藏。&lt;/td&gt;
+      &lt;td&gt;2.2.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_tags&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true (default), false&lt;/td&gt;
+      &lt;td&gt;是否展示该页的标签，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 隐藏。&lt;/td&gt;
+      &lt;td&gt;2.2.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;full_width&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;该页内容是否占据全部宽度，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 开启。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;pageview&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;是否开启阅读量统计，默认关闭，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 开启。&lt;/td&gt;
+      &lt;td&gt;2.2.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;comment&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true (default), false&lt;/td&gt;
+      &lt;td&gt;是否开启评论支持，默认开启，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 关闭。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;mathjax&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false&lt;/td&gt;
+      &lt;td&gt;是否开启 Mathjax 公式支持，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 开启。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;mathjax_autoNumber&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false&lt;/td&gt;
+      &lt;td&gt;该页的 Mathjax 公式是否自动编号，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 开启。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;mermaid&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false&lt;/td&gt;
+      &lt;td&gt;是否开启 Mermaid 流程图支持，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 开启。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;chart&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false&lt;/td&gt;
+      &lt;td&gt;是否开启 Chart 图表支持，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 开启。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;cover&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;封面图片的 URL。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;header&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;false, &lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 隐藏标题栏。&lt;/td&gt;
+      &lt;td&gt;2.2.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;article_header&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;2.2.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;aside&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;sidebar&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;footer&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;false&lt;/td&gt;
+      &lt;td&gt;设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 隐藏底部栏。&lt;/td&gt;
+      &lt;td&gt;2.2.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;lightbox&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false&lt;/td&gt;
+      &lt;td&gt;该页的大图是否能点击预览，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 开启，你可以通过设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;lightbox-ignore&lt;/code&gt; 类名来忽略特定的图片元素。&lt;/td&gt;
+      &lt;td&gt;2.2.4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;header&quot;&gt;header&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;theme&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;light, dark&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;translucent&lt;/code&gt; 时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;background&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;当指定了 theme 值时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;article_header&quot;&gt;article_header&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;type&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;overlay, cover&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;align&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;left (default), center&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;theme&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;light (default), dark&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;background_color&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;overlay&lt;/code&gt; 时有效。当设置的背景色较深时，你需要设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;theme&lt;/code&gt; 为 dark。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;background_image&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;overlay&lt;/code&gt; 时有效，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 可覆盖 &lt;code class=&quot;highlighter-rouge&quot;&gt;cover&lt;/code&gt; 禁止背景图片。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;image&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;cover&lt;/code&gt; 时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;actions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!seq&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;article_headerbackground_image&quot;&gt;article_header.background_image&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Variable&lt;/th&gt;
+      &lt;th&gt;Option Values&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;gradient&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;src&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;默认为 &lt;code class=&quot;highlighter-rouge&quot;&gt;cover&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;article_headerimage&quot;&gt;article_header.image&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Variable&lt;/th&gt;
+      &lt;th&gt;Option Values&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;src&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;aside&quot;&gt;aside&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;toc&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;false (default), true&lt;/td&gt;
+      &lt;td&gt;设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 时展示右侧边栏目录。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;sidebar&quot;&gt;sidebar&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;nav&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;article-布局&quot;&gt;Article 布局&lt;/h2&gt;
+
+&lt;p&gt;继承于 Page 布局。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+      &lt;th&gt;最低版本&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;modify_date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;该文章的最后修改时间, 其格式为 &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD HH:MM:SS +/-TTTT&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt; 的格式相同&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;sharing&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;是否开启分享，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 开启。&lt;/td&gt;
+      &lt;td&gt;2.2.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_author_profile&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;是否在文章开头显示作者信息卡片，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 显示。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_subscribe&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;是否在文章末尾显示订阅信息，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 显示。&lt;/td&gt;
+      &lt;td&gt;latest&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;license&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default), CC-BY-4.0, CC-BY-SA-4.0, CC-BY-NC-4.0, CC-BY-ND-4.0&lt;/td&gt;
+      &lt;td&gt;该文章的许可协议。设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 使用在 &lt;em&gt;_config.yml&lt;/em&gt; 中设置的 &lt;code class=&quot;highlighter-rouge&quot;&gt;license&lt;/code&gt; 值，设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 不使用许可协议。&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;articles-布局&quot;&gt;Articles 布局&lt;/h2&gt;
+
+&lt;p&gt;继承于 Page 布局，从 &lt;strong&gt;2.2.0&lt;/strong&gt; 版本支持。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;articles&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;articles&quot;&gt;articles&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;data_source&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!str&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;如果你将将集合名设置为该项的值，该页面将会展示这个集合下的文章列表。你可以在 &lt;a href=&quot;https://jekyllrb.com/docs/collections/&quot;&gt;Collections&lt;/a&gt; 找到更多关于集合的信息。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;type&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;item, brief, grid&lt;/td&gt;
+      &lt;td&gt;TeXt 支持三种文章列表类型，每种类型都对应着一些配置，你可以在&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/samples.html#articles-layout&quot;&gt;这里&lt;/a&gt;看到相关的示例。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;size&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;md, sm&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;grid&lt;/code&gt; 时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;article_type&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;BlogPosting&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; 时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_cover&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true (default), false&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; 时有效。 在设置改参数为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 前，你需要给集合里的每篇文章设置封面, 参考 &lt;a href=&quot;#page-layout&quot;&gt;Page 布局&lt;/a&gt;的 &lt;code class=&quot;highlighter-rouge&quot;&gt;cover&lt;/code&gt; 配置项。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;cover_size&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;lg, md, sm&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; 时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_excerpt&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; 时有效， 参考下面 &lt;a href=&quot;#excerpt_type&quot;&gt;excerpt_type&lt;/a&gt; 章节。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;excerpt_type&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;text, html&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; 时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_readmore&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; 时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;show_info&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;true, false (default)&lt;/td&gt;
+      &lt;td&gt;当 type 为 &lt;code class=&quot;highlighter-rouge&quot;&gt;normal&lt;/code&gt; 或 &lt;code class=&quot;highlighter-rouge&quot;&gt;brief&lt;/code&gt; 时有效。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;articlesexcerpt_type&quot;&gt;articles.excerpt_type&lt;/h3&gt;
+
+&lt;p&gt;文章列表中文章项的摘要有两种模式——TEXT 模式和 HTML 模式。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;模式名称&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;text&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;此时摘要为纯文本，会过滤掉一切非文本元素（标题，链接，列表，表格，图片等等），且截取前 350 个字符。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;html&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;此时摘要为 HTML 文档，与文章内容一致，并且 &lt;strong&gt;默认展示整篇文章的内容&lt;/strong&gt;。若想控制摘要内容，需要在文章中想要显示到的地方加上 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;，详情请戳&lt;a href=&quot;https://jekyllrb.com/docs/posts/#post-excerpts&quot;&gt;这里&lt;/a&gt;。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;对于 Home 页，你可以像这样把 &lt;code class=&quot;highlighter-rouge&quot;&gt;excerpt_type&lt;/code&gt; 设置为 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt;：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;home&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;articles&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;excerpt_type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;html&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;home-布局&quot;&gt;Home 布局&lt;/h2&gt;
+
+&lt;p&gt;继承于 Articles 布局。&lt;/p&gt;
+
+&lt;h2 id=&quot;archive-布局&quot;&gt;Archive 布局&lt;/h2&gt;
+
+&lt;p&gt;继承于 Page 布局。&lt;/p&gt;
+
+&lt;h2 id=&quot;landing-布局&quot;&gt;Landing 布局&lt;/h2&gt;
+
+&lt;p&gt;继承于 Page 布局。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;配置项&lt;/th&gt;
+      &lt;th&gt;可选值&lt;/th&gt;
+      &lt;th&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;data&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;!!map&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;404-布局&quot;&gt;404 布局&lt;/h2&gt;
+
+&lt;p&gt;继承于 Page 布局。&lt;/p&gt;</content><author><name>Rekeryang</name></author><summary type="html">graph TB; NONE[none] BASE[base] PAGE[page] ARTICLE[article] ARTICLES[articles] HOME[home] ARCHIVE[archive] LANDING[landing] 404[404] NONE--&amp;gt;BASE; BASE--&amp;gt;PAGE; PAGE--&amp;gt;ARTICLE; PAGE--&amp;gt;ARTICLES; ARTICLES--&amp;gt;HOME; PAGE--&amp;gt;ARCHIVE; PAGE--&amp;gt;LANDING; PAGE--&amp;gt;404; Base 布局 继承于 None。 Page 布局 继承于 Base 布局。 配置项 可选值 描述 最低版本 mode normal (default), immersive 该页的模式。 2.2.0 type webpage (default), article 该页的类型, 作为 schema.org 的语义化标记使用。   key !!str 页面的唯一标识符，供评论系统和点击量统计使用。必须以字母（[A-Za-z]）开头，其后可以接若干字母、数字（[0-9]）、连字符（-）、下划线（_）、冒号（:）和小数点（.）。   lang en (default), zh, zh-Hans, zh-Hant 该页的语言。   author !!map 将在 authors.yml 中定义的作者作为某篇文章或页面的作者, 详情请看作者。 2.2.0 show_title true (default), false 是否显示标题，默认显示，设置为 false 隐藏。   show_edit_on_github true, false (default) 是否显示“在 Github 上修改”按钮，设置为 true 显示。你需要先在 _config.yml 中设置 repository 和 repository_tree。   show_date true (default), false 是否展示该页的发布日期，设置为 false 隐藏。 2.2.0 show_tags true (default), false 是否展示该页的标签，设置为 false 隐藏。 2.2.0 full_width true, false (default) 该页内容是否占据全部宽度，设置为 true 开启。   pageview true, false (default) 是否开启阅读量统计，默认关闭，设置为 true 开启。 2.2.0 comment true (default), false 是否开启评论支持，默认开启，设置为 false 关闭。   mathjax true, false 是否开启 Mathjax 公式支持，设置为 true 开启。   mathjax_autoNumber true, false 该页的 Mathjax 公式是否自动编号，设置为 true 开启。   mermaid true, false 是否开启 Mermaid 流程图支持，设置为 true 开启。   chart true, false 是否开启 Chart 图表支持，设置为 true 开启。   cover !!str 封面图片的 URL。   header false, !!map 设置为 false 隐藏标题栏。 2.2.0 article_header !!map   2.2.0 aside !!map     sidebar !!map     footer false 设置为 false 隐藏底部栏。 2.2.3 lightbox true, false 该页的大图是否能点击预览，设置为 true 开启，你可以通过设置 lightbox-ignore 类名来忽略特定的图片元素。 2.2.4 header 配置项 可选值 描述 theme light, dark 当 type 为 translucent 时有效。 background !!str 当指定了 theme 值时有效。 article_header 配置项 可选值 描述 type overlay, cover   align left (default), center   theme light (default), dark   background_color !!str 当 type 为 overlay 时有效。当设置的背景色较深时，你需要设置 theme 为 dark。 background_image !!map 当 type 为 overlay 时有效，设置为 false 可覆盖 cover 禁止背景图片。 image !!map 当 type 为 cover 时有效。 actions !!seq   article_header.background_image Variable Option Values Description gradient !!str   src !!str 默认为 cover article_header.image Variable Option Values Description src !!str   aside 配置项 可选值 描述 toc false (default), true 设置为 true 时展示右侧边栏目录。 sidebar 配置项 可选值 描述 nav !!str   Article 布局 继承于 Page 布局。 配置项 可选值 描述 最低版本 modify_date !!str 该文章的最后修改时间, 其格式为 YYYY-MM-DD HH:MM:SS +/-TTTT 和 date 的格式相同   sharing true, false (default) 是否开启分享，设置为 true 开启。 2.2.2 show_author_profile true, false (default) 是否在文章开头显示作者信息卡片，设置为 true 显示。   show_subscribe true, false (default) 是否在文章末尾显示订阅信息，设置为 true 显示。 latest license true, false (default), CC-BY-4.0, CC-BY-SA-4.0, CC-BY-NC-4.0, CC-BY-ND-4.0 该文章的许可协议。设置为 true 使用在 _config.yml 中设置的 license 值，设置为 false 不使用许可协议。   Articles 布局 继承于 Page 布局，从 2.2.0 版本支持。 配置项 可选值 描述 articles !!map   articles 配置项 可选值 描述 data_source !!str 如果你将将集合名设置为该项的值，该页面将会展示这个集合下的文章列表。你可以在 Collections 找到更多关于集合的信息。 type item, brief, grid TeXt 支持三种文章列表类型，每种类型都对应着一些配置，你可以在这里看到相关的示例。 size md, sm 当 type 为 grid 时有效。 article_type BlogPosting 当 type 为 normal 时有效。 show_cover true (default), false 当 type 为 normal 时有效。 在设置改参数为 true 前，你需要给集合里的每篇文章设置封面, 参考 Page 布局的 cover 配置项。 cover_size lg, md, sm 当 type 为 normal 时有效。 show_excerpt true, false (default) 当 type 为 normal 时有效， 参考下面 excerpt_type 章节。 excerpt_type text, html 当 type 为 normal 时有效。 show_readmore true, false (default) 当 type 为 normal 时有效。 show_info true, false (default) 当 type 为 normal 或 brief 时有效。 articles.excerpt_type 文章列表中文章项的摘要有两种模式——TEXT 模式和 HTML 模式。 模式名称 描述 text 此时摘要为纯文本，会过滤掉一切非文本元素（标题，链接，列表，表格，图片等等），且截取前 350 个字符。 html 此时摘要为 HTML 文档，与文章内容一致，并且 默认展示整篇文章的内容。若想控制摘要内容，需要在文章中想要显示到的地方加上 `</summary></entry><entry><title type="html">Logo 和 Favicon</title><link href="http://localhost:4000/docs/zh/logo-and-favicon" rel="alternate" type="text/html" title="Logo 和 Favicon" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/2.4-logo-and-favicon</id><content type="html" xml:base="http://localhost:4000/docs/zh/logo-and-favicon">&lt;h2 id=&quot;logo&quot;&gt;Logo&lt;/h2&gt;
+
+&lt;p&gt;TeXt 使用  &lt;span&gt;&lt;svg version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; width=&quot;24px&quot; height=&quot;24px&quot; viewBox=&quot;0 0 24 24&quot;&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+	.st0{fill:#515151;}
+&lt;/style&gt;
+&lt;path class=&quot;st0&quot; d=&quot;M1.7,22.3c5.7-5.7,11.3-5.7,17,0c3.3-3.3,3.5-5.3,0.8-6c2.7,0.7,3.5-1.1,2.3-5.6s-3.3-5.2-6.3-2.1
+	c3-3,2.3-5.2-2.1-6.3S7,1.8,7.7,4.6C7,1.8,5,2.1,1.7,5.3C7.3,11,7.3,16.7,1.7,22.3&quot; /&gt;
+&lt;/svg&gt;&lt;/span&gt; 作为它的 Logo，你可以通过替换 &lt;em&gt;_includes/svg/logo.svg&lt;/em&gt; 来设置你的 Logo。&lt;/p&gt;
+
+&lt;h2 id=&quot;favicon&quot;&gt;Favicon&lt;/h2&gt;
+
+&lt;p&gt;TeXt 推荐使用 &lt;a href=&quot;https://realfavicongenerator.net/&quot;&gt;RealFaviconGenerator&lt;/a&gt; 来生成 Favicon。&lt;/p&gt;
+
+&lt;p&gt;打开 &lt;a href=&quot;https://realfavicongenerator.net/&quot;&gt;RealFaviconGenerator&lt;/a&gt; 后点击“Select your Favicon picture”，选择图片进入下一步。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/realfavicongenerator-select-favicon-picture.jpg&quot; alt=&quot;Select your Favicon picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图标设置完成后，你需要告诉生成器 Favicon 文件的网站路径，TeXt 将他们放在了 &lt;em&gt;/assets&lt;/em&gt; 目录。&lt;/p&gt;
+
+&lt;p class=&quot;warning&quot;&gt;推荐将 Favicon 文件放在网站的根目录下。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/realfavicongenerator-path.jpg&quot; alt=&quot;Select your Favicon path&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;完成后点击“Generate your Favicons and HTML code”进入到最后一步。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/realfavicongenerator-result.jpg&quot; alt=&quot;Result&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;下载生成的 favicon 包，解压文件到你方才填写的路径，将 HTML 代码替换到 &lt;em&gt;_includes/head/favicon.html&lt;/em&gt; 文件中。&lt;/p&gt;</content><author><name>Rekeryang</name></author><summary type="html">Logo TeXt 使用 作为它的 Logo，你可以通过替换 _includes/svg/logo.svg 来设置你的 Logo。 Favicon TeXt 推荐使用 RealFaviconGenerator 来生成 Favicon。 打开 RealFaviconGenerator 后点击“Select your Favicon picture”，选择图片进入下一步。 图标设置完成后，你需要告诉生成器 Favicon 文件的网站路径，TeXt 将他们放在了 /assets 目录。 推荐将 Favicon 文件放在网站的根目录下。 完成后点击“Generate your Favicons and HTML code”进入到最后一步。 下载生成的 favicon 包，解压文件到你方才填写的路径，将 HTML 代码替换到 _includes/head/favicon.html 文件中。</summary></entry><entry><title type="html">作者</title><link href="http://localhost:4000/docs/zh/authors" rel="alternate" type="text/html" title="作者" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/2.5-authors</id><content type="html" xml:base="http://localhost:4000/docs/zh/authors">&lt;p&gt;文章或页面的作者默认为在 &lt;em&gt;_config.yml&lt;/em&gt; 中配置的 &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt;，当然你可以通过 YAML 头信息来指定特定文章的作者。&lt;/p&gt;
+
+&lt;p&gt;首先你需要有一个 &lt;em&gt;_data/authors.yml&lt;/em&gt; 的文件，参考以下格式来增加作者信息。其可用参数和 &lt;em&gt;_config.yml&lt;/em&gt; 中的 &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; 项的参数一致（type, name, url, avatar, bio, email, facebook 等）。&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;Tian Qi&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name      &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Tian Qi&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;url       &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://rekeryang.com&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;avatar    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://wx3.sinaimg.cn/large/73bd9e13ly1fjkqy66hl8j208c08c0td.jpg&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;bio       &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Author of TeXt.&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;email     &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;kitian616@outlook.com&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;facebook  &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://www.facebook.com/user_name&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;twitter   &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;kitian616&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://twitter.com/user_name&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;weibo     &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;234695683&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_id&quot;   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;googleplus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;101827554735084402671&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_id&quot;   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;telegram  &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://t.me/user_name&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;medium    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://medium.com/user_name&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;zhihu     &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://www.zhihu.com/people/user_name&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;douban    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://www.douban.com/people/user_name&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;linkedin  &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://www.linkedin.com/in/user_name&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;github    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;kitian616&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://github.com/user_name&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;npm       &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &quot;user_name&quot; the last part of your profile url, e.g. https://www.npmjs.com/~user_name&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;将在 &lt;em&gt;authors.yml&lt;/em&gt; 中定义的作者作为某篇文章或页面的作者以覆盖 &lt;code class=&quot;highlighter-rouge&quot;&gt;site.author&lt;/code&gt; 全局作者。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+author: Tian Qi
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rekeryang</name></author><summary type="html">文章或页面的作者默认为在 _config.yml 中配置的 author，当然你可以通过 YAML 头信息来指定特定文章的作者。 首先你需要有一个 _data/authors.yml 的文件，参考以下格式来增加作者信息。其可用参数和 _config.yml 中的 author 项的参数一致（type, name, url, avatar, bio, email, facebook 等）。 Tian Qi: name : Tian Qi url : https://rekeryang.com avatar : https://wx3.sinaimg.cn/large/73bd9e13ly1fjkqy66hl8j208c08c0td.jpg bio : Author of TeXt. email : kitian616@outlook.com facebook : # &quot;user_name&quot; the last part of your profile url, e.g. https://www.facebook.com/user_name twitter : kitian616 # &quot;user_name&quot; the last part of your profile url, e.g. https://twitter.com/user_name weibo : 234695683 # &quot;user_id&quot; the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?... googleplus: 101827554735084402671 # &quot;user_id&quot; the last part of your profile url, e.g. https://plus.google.com/u/0/user_id telegram : # &quot;user_name&quot; the last part of your profile url, e.g. https://t.me/user_name medium : # &quot;user_name&quot; the last part of your profile url, e.g. https://medium.com/user_name zhihu : # &quot;user_name&quot; the last part of your profile url, e.g. https://www.zhihu.com/people/user_name douban : # &quot;user_name&quot; the last part of your profile url, e.g. https://www.douban.com/people/user_name linkedin : # &quot;user_name&quot; the last part of your profile url, e.g. https://www.linkedin.com/in/user_name github : kitian616 # &quot;user_name&quot; the last part of your profile url, e.g. https://github.com/user_name npm : # &quot;user_name&quot; the last part of your profile url, e.g. https://www.npmjs.com/~user_name 将在 authors.yml 中定义的作者作为某篇文章或页面的作者以覆盖 site.author 全局作者。 --- author: Tian Qi ---</summary></entry><entry><title type="html">国际化</title><link href="http://localhost:4000/docs/zh/i18n" rel="alternate" type="text/html" title="国际化" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/2.7-i18n</id><content type="html" xml:base="http://localhost:4000/docs/zh/i18n">&lt;p&gt;TeXt 把 UI 元素的文字整理成一系列的翻译标识统一的放置在 &lt;em&gt;_data/locale.yml&lt;/em&gt; 中，这样能够比较方便添加不同语言的支持。&lt;/p&gt;
+
+&lt;p&gt;通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;titles&lt;/code&gt; 配置项可以给文章，布局和导航定义定义多语言标题，TeXt 默认定义了很多这样的标题，它们分别位于 &lt;em&gt;_data/navigation&lt;/em&gt;，&lt;em&gt;_layouts/archive&lt;/em&gt;，&lt;em&gt;_layouts/home&lt;/em&gt; 和 &lt;em&gt;about.md&lt;/em&gt; 中。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;上文所提到的翻译标识和多语言标题支持以下语言。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;语言&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lang&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;英语&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;en, en-GB, en-US, en-CA, en-AU&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;简体中文&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;zh-Hans, zh, zh-CN, zh-SG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;繁体中文&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;zh-Hant, zh-TW, zh-HK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;韩语&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;ko, ko-KR&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;你可以在&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/samples.html#languages&quot;&gt;这里&lt;/a&gt;找到不同语言的示例。&lt;/p&gt;</content><author><name>Rekeryang</name></author><summary type="html">TeXt 把 UI 元素的文字整理成一系列的翻译标识统一的放置在 _data/locale.yml 中，这样能够比较方便添加不同语言的支持。 通过 titles 配置项可以给文章，布局和导航定义定义多语言标题，TeXt 默认定义了很多这样的标题，它们分别位于 _data/navigation，_layouts/archive，_layouts/home 和 about.md 中。 上文所提到的翻译标识和多语言标题支持以下语言。 语言 lang 英语 en, en-GB, en-US, en-CA, en-AU 简体中文 zh-Hans, zh, zh-CN, zh-SG 繁体中文 zh-Hant, zh-TW, zh-HK 韩语 ko, ko-KR 你可以在这里找到不同语言的示例。</summary></entry><entry><title type="html">撰写博客</title><link href="http://localhost:4000/docs/zh/writing-posts" rel="alternate" type="text/html" title="撰写博客" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/3.1-writing-posts</id><content type="html" xml:base="http://localhost:4000/docs/zh/writing-posts">&lt;p&gt;在&lt;a href=&quot;http://jekyllcn.com/docs/structure/&quot;&gt;目录结构&lt;/a&gt;介绍中说明过，&lt;strong&gt;所有的文章都在 &lt;em&gt;/_posts&lt;/em&gt; 文件夹中&lt;/strong&gt;。这些文件可以用 Markdown 或 HTML 编写。只要文件中有 YAML 头信息，它们就会从源格式转化成 HTML 页面，从而成为你的静态网站的一部分。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;创建文章&quot;&gt;创建文章&lt;/h2&gt;
+
+&lt;p&gt;发表一篇新文章，你所需要做的就是在 &lt;em&gt;/_posts&lt;/em&gt; 文件夹中创建一个新的文件。文件名的命名非常重要。Jekyll 要求一篇文章的文件名遵循下面的格式：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;年-月-日-标题.MARKUP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;下面是一些合法的文件名的例子：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2011-12-31-new-years-eve-is-awesome.md
+2012-09-12-how-to-write-a-blog.markdown
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;内容相关&quot;&gt;内容相关&lt;/h2&gt;
+
+&lt;p&gt;所有博客文章顶部必须有一段 YAML 头信息(YAML front-matter)。&lt;/p&gt;
+
+&lt;p&gt;为了提高文章的阅读和书写体验，TeXt 在 Markdown 原有的基础上做了一些增强。&lt;/p&gt;
+
+&lt;h3 id=&quot;yaml-头信息&quot;&gt;YAML 头信息&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: article
+title: Document - Writing Posts
+mathjax: true
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;在 &lt;code class=&quot;highlighter-rouge&quot;&gt;---&lt;/code&gt; 之间你可以设置属性的值，可以把它们看作页面的配置，这些配置会覆盖在 &lt;em&gt;_config.yml&lt;/em&gt; 文件中设置的全局配置。&lt;/p&gt;
+
+&lt;p&gt;除去 Jekyll 自定义的变量外，TeXt 也定义了一些额外的变量，详情请戳&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/layouts&quot;&gt;布局&lt;/a&gt;。&lt;/p&gt;</content><author><name>Rekeryang</name></author><summary type="html">在目录结构介绍中说明过，所有的文章都在 /_posts 文件夹中。这些文件可以用 Markdown 或 HTML 编写。只要文件中有 YAML 头信息，它们就会从源格式转化成 HTML 页面，从而成为你的静态网站的一部分。</summary></entry></feed>

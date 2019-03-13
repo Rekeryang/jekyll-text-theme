@@ -327,15 +327,212 @@ echo 'export PATH="$HOME/gem...</div><p><a href="/2019/03/09/github+Jekyll-blog.
             </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2019-03-09T11:40:18+08:00">
     <meta itemprop="keywords" content="jekyll,github,markdown,前端,blog,RubyGems,HTML,CSS"></div>
       </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
-          <header><a href="/2018/06/01/header-image.html"><h2 itemprop="headline" class="item__header">Post with Header Image</h2></a></header>
-          <div class="item__description"><div class="article__content" itemprop="description articleBody">A Post with Header Image, See Page layout for more examples.</div><p><a href="/2018/06/01/header-image.html">阅读更多</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=TeXt">TeXt</a>
-            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>2018年 06月01日</span>
-            </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2018-06-01T00:00:00+08:00">
-    <meta itemprop="keywords" content="TeXt"></div>
+          <header><a href="/docs/zh/extensions"><h2 itemprop="headline" class="item__header">扩展</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">音频
+
+
+  
+    
+      扩展名称
+      最新版本
+    
+  
+  
+    
+      SoundCloud
+      2.2.2
+    
+    
+      Netease Cloud Music
+      2.2.2
+    
+  
+
+
+SoundCloud
+
+id:
+
+
+
+html:
+
+{%- include extensions/soundcloud.html id='313627932' -%}
+
+
+markdown:
+
+&lt;div&gt;{%- include extensions/soundcloud.html id='313627932' -%}&lt;/div&gt;
+
+
+网易云音乐
+
+id:
+
+
+
+html:
+
+{%- incl...</div><p><a href="/docs/zh/extensions">阅读更多</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>2019年 03月09日</span>
+            </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2019-03-09T00:00:00+08:00"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/docs/zh/additional-styles"><h2 itemprop="headline" class="item__header">附加样式</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">Jekyll 使用 kramdown 作为默认 Markdown 解释器。kramdown 可以通过 ALDs1 来设置块级元素或行内元素的属性。例如，可以通过 {:.class-name1.class-name-2} 来给元素定义样式类。
+
+TeXt 定义了一些样式类，你可以在文章和页面的方便的使用，可以在这里看到示例和详细的说明.
+
+提示
+
+
+  
+    
+      样式名称
+    
+  
+  
+    
+      success
+    
+    
+      info
+    
+    
+      warning
+    
+    
+      error
+    
+  
+
+
+Success Text.
+
+Info Text.
+
+Warning Text.
+
+Erro...</div><p><a href="/docs/zh/additional-styles">阅读更多</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>2019年 03月09日</span>
+            </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2019-03-09T00:00:00+08:00"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/docs/zh/markdown-enhancements"><h2 itemprop="headline" class="item__header">Markdown 增强</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">你需要在 _config.yml 或 YAML 头信息中设置相关的属性为 true 来开启对应的功能。
+
+
+  
+    
+      增强项
+      描述
+       
+    
+  
+  
+    
+      Mathjax
+      在文章中方便的加入数学公式，使用 MathML、LaTeX 和 ASCIIMathML 语法
+      示例
+    
+    
+      Mermaid
+      在文章中方便的加入流程图
+      示例
+    
+    
+      Chart
+      在文章中方便的加入可交互的图表
+      示例
+    
+  
+
+
+Mathjax
+
+When , there are two solutions to  and the...</div><p><a href="/docs/zh/markdown-enhancements">阅读更多</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>2019年 03月09日</span>
+            </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2019-03-09T00:00:00+08:00"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/docs/zh/writing-posts"><h2 itemprop="headline" class="item__header">撰写博客</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">在目录结构介绍中说明过，所有的文章都在 /_posts 文件夹中。这些文件可以用 Markdown 或 HTML 编写。只要文件中有 YAML 头信息，它们就会从源格式转化成 HTML 页面，从而成为你的静态网站的一部分。</div><p><a href="/docs/zh/writing-posts">阅读更多</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>2019年 03月09日</span>
+            </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2019-03-09T00:00:00+08:00"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/docs/zh/i18n"><h2 itemprop="headline" class="item__header">国际化</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">TeXt 把 UI 元素的文字整理成一系列的翻译标识统一的放置在 _data/locale.yml 中，这样能够比较方便添加不同语言的支持。
+
+通过 titles 配置项可以给文章，布局和导航定义定义多语言标题，TeXt 默认定义了很多这样的标题，它们分别位于 _data/navigation，_layouts/archive，_layouts/home 和 about.md 中。
+
+
+
+上文所提到的翻译标识和多语言标题支持以下语言。
+
+
+  
+    
+      语言
+      lang
+    
+  
+  
+    
+      英语
+      en, en-GB, en-US, en-CA, en-AU
+    
+    
+      简体中文
+      zh-Hans,...</div><p><a href="/docs/zh/i18n">阅读更多</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>2019年 03月09日</span>
+            </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2019-03-09T00:00:00+08:00"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/docs/zh/authors"><h2 itemprop="headline" class="item__header">作者</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">文章或页面的作者默认为在 _config.yml 中配置的 author，当然你可以通过 YAML 头信息来指定特定文章的作者。
+
+首先你需要有一个 _data/authors.yml 的文件，参考以下格式来增加作者信息。其可用参数和 _config.yml 中的 author 项的参数一致（type, name, url, avatar, bio, email, facebook 等）。
+
+Tian Qi:
+  name      : Tian Qi
+  url       : https://rekeryang.com
+  avatar    : https://wx3.sinaimg.cn/large/73bd9e13ly1fjkqy66hl8j208c08c0td.jpg
+  ...</div><p><a href="/docs/zh/authors">阅读更多</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>2019年 03月09日</span>
+            </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2019-03-09T00:00:00+08:00"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/docs/zh/logo-and-favicon"><h2 itemprop="headline" class="item__header">Logo 和 Favicon</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">Logo
+
+TeXt 使用  
+
+
+ 作为它的 Logo，你可以通过替换 _includes/svg/logo.svg 来设置你的 Logo。
+
+Favicon
+
+TeXt 推荐使用 RealFaviconGenerator 来生成 Favicon。
+
+打开 RealFaviconGenerator 后点击“Select your Favicon picture”，选择图片进入下一步。
+
+
+
+图标设置完成后，你需要告诉生成器 Favicon 文件的网站路径，TeXt 将他们放在了 /assets 目录。
+
+推荐将 Favicon 文件放在网站的根目录下。
+
+
+
+完成后点击“Generate your Favicons and HTML code”进入到最后一步。
+
+
+
+下载生成的 fa...</div><p><a href="/docs/zh/logo-and-favicon">阅读更多</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>2019年 03月09日</span>
+            </li></ul></div><meta itemprop="author" content="Rekeryang"/><meta itemprop="datePublished" content="2019-03-09T00:00:00+08:00"></div>
       </article></div>
-</div><div class="layout--home"></div>
+</div><div class="layout--home"><div class="pagination"><p>共计 14 篇文章，2 页。</p>
+    <div class="pagination__menu">
+      <ul class="menu menu--nowrap"><li><div class="button button--secondary button--circle disabled">
+            <i class="fas fa-angle-left"></i>
+          </div></li><li>
+              <div class="button button--primary button--circle focus"><span>1</span></div>
+            </li><li>
+                <a class="button button--secondary button--circle" href="/page2"><span>2</span></a>
+              </li><li><a class="button button--secondary button--circle" href="/page2">
+            <i class="fas fa-angle-right"></i>
+          </a></li></ul>
+    </div>
+  </div></div>
 <script>/*(function () {
 
 })();*/
