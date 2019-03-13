@@ -280,8 +280,15 @@
 <!-- end custom main top snippet --><article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>关于</h1></header></div><meta itemprop="headline" content="关于"><meta itemprop="author" content="Rekeryang"/><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet --><div class="article__content" itemprop="articleBody"><ul id="markdown-toc">
-  <li><a href="#环境配置" id="markdown-toc-环境配置">环境配置</a></li>
-  <li><a href="#建立博客" id="markdown-toc-建立博客">建立博客</a>    <ul>
+  <li><a href="#环境配置" id="markdown-toc-环境配置">环境配置</a>    <ul>
+      <li><a href="#安装ruby" id="markdown-toc-安装ruby">安装ruby</a></li>
+      <li><a href="#配置环境变量" id="markdown-toc-配置环境变量">配置环境变量</a></li>
+      <li><a href="#安装jekyll" id="markdown-toc-安装jekyll">安装jekyll</a></li>
+      <li><a href="#验证结果" id="markdown-toc-验证结果">验证结果</a></li>
+    </ul>
+  </li>
+  <li><a href="#建立博客" id="markdown-toc-建立博客">建立博客</a></li>
+  <li><a href="#使用模板" id="markdown-toc-使用模板">使用模板</a>    <ul>
       <li><a href="#代码高亮主题" id="markdown-toc-代码高亮主题">代码高亮主题</a></li>
     </ul>
   </li>
@@ -304,23 +311,23 @@
   <p>我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！</p>
 </blockquote>
 
-<p>1.安装ruby</p>
+<h3 id="安装ruby">安装ruby</h3>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install ruby-full build-essential zlib1g-dev
 </code></pre></div></div>
 
-<p>2.配置环境变量</p>
+<h3 id="配置环境变量">配置环境变量</h3>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo '# Install Ruby Gems to ~/gems' &gt;&gt; ~/.bashrc
 echo 'export GEM_HOME="$HOME/gems"' &gt;&gt; ~/.bashrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' &gt;&gt; ~/.bashrc
 source ~/.bashrc
 </code></pre></div></div>
-<p>3.安装jekyll</p>
+<h3 id="安装jekyll">安装jekyll</h3>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll bundler
 </code></pre></div></div>
 
-<p>4.验证结果</p>
+<h3 id="验证结果">验证结果</h3>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby -v
 </code></pre></div></div>
@@ -362,7 +369,7 @@ Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
 
 <p><img src="https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/3.png" alt="实例3" /></p>
 
-<p>##使用模板</p>
+<h2 id="使用模板">使用模板</h2>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/Rekeryang/jekyll.github.io.git
 </code></pre></div></div>
