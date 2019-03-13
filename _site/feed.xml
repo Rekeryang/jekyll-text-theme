@@ -1,10 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2019-03-13T11:28:13+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">rekeryang</title><subtitle>欢迎我的博客</subtitle><author><name>Rekeryang</name></author><entry><title type="html">github+jekyll搭建个人博客</title><link href="http://localhost:4000/2019/03/09/github+Jekyll-blog.html" rel="alternate" type="text/html" title="github+jekyll搭建个人博客" /><published>2019-03-09T11:40:18+08:00</published><updated>2019-03-09T11:40:18+08:00</updated><id>http://localhost:4000/2019/03/09/github+Jekyll-blog</id><content type="html" xml:base="http://localhost:4000/2019/03/09/github+Jekyll-blog.html">&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#1环境配置&quot; id=&quot;markdown-toc-1环境配置&quot;&gt;1.环境配置&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#2建立博客&quot; id=&quot;markdown-toc-2建立博客&quot;&gt;2.建立博客&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#3使用模板&quot; id=&quot;markdown-toc-3使用模板&quot;&gt;3.使用模板&lt;/a&gt;&lt;/li&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2019-03-13T11:31:50+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">rekeryang</title><subtitle>欢迎我的博客</subtitle><author><name>Rekeryang</name></author><entry><title type="html">github+jekyll搭建个人博客</title><link href="http://localhost:4000/2019/03/09/github+Jekyll-blog.html" rel="alternate" type="text/html" title="github+jekyll搭建个人博客" /><published>2019-03-09T11:40:18+08:00</published><updated>2019-03-09T11:40:18+08:00</updated><id>http://localhost:4000/2019/03/09/github+Jekyll-blog</id><content type="html" xml:base="http://localhost:4000/2019/03/09/github+Jekyll-blog.html">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#环境配置&quot; id=&quot;markdown-toc-环境配置&quot;&gt;环境配置&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#建立博客&quot; id=&quot;markdown-toc-建立博客&quot;&gt;建立博客&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#使用模板&quot; id=&quot;markdown-toc-使用模板&quot;&gt;使用模板&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#代码高亮主题&quot; id=&quot;markdown-toc-代码高亮主题&quot;&gt;代码高亮主题&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#文档&quot; id=&quot;markdown-toc-文档&quot;&gt;文档&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#开始&quot; id=&quot;markdown-toc-开始&quot;&gt;开始&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#定制&quot; id=&quot;markdown-toc-定制&quot;&gt;定制&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#内容&quot; id=&quot;markdown-toc-内容&quot;&gt;内容&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#示例&quot; id=&quot;markdown-toc-示例&quot;&gt;示例&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#支持我&quot; id=&quot;markdown-toc-支持我&quot;&gt;支持我&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#其他资源&quot; id=&quot;markdown-toc-其他资源&quot;&gt;其他资源&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#协议&quot; id=&quot;markdown-toc-协议&quot;&gt;协议&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;1环境配置&quot;&gt;1.环境配置&lt;/h4&gt;
+&lt;h2 id=&quot;环境配置&quot;&gt;环境配置&lt;/h2&gt;
 &lt;p&gt;参考&lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;Jekyll官方文档&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -41,7 +54,7 @@ puskar@puskar-hrms:~$ jekyll -h
 jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;2建立博客&quot;&gt;2.建立博客&lt;/h4&gt;
+&lt;h2 id=&quot;建立博客&quot;&gt;建立博客&lt;/h2&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll new myblog
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -69,19 +82,106 @@ Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
 
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/3.png&quot; alt=&quot;实例3&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;3使用模板&quot;&gt;3.使用模板&lt;/h4&gt;
+&lt;h2 id=&quot;使用模板&quot;&gt;使用模板&lt;/h2&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/Rekeryang/jekyll.github.io.git
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;h3 id=&quot;代码高亮主题&quot;&gt;代码高亮主题&lt;/h3&gt;
+
+&lt;p&gt;TeXt 使用 &lt;a href=&quot;https://github.com/chriskempson/tomorrow-theme&quot;&gt;Tomorrow&lt;/a&gt; 作为它的代码高亮主题。&lt;/p&gt;
+
 &lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow-night&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow-night-eighties&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow-night-blue&lt;/code&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tomorrow-night-bright&lt;/code&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/rekeryang/jekyll-text-theme/blob/master/CHANGELOG.md&quot;&gt;Change Log&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/rekeryang/jekyll-text-theme/blob/master/README-zh.md&quot;&gt;中文&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow.png&quot; alt=&quot;Tomorrow&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night.png&quot; alt=&quot;Tomorrow Night&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-eighties.png&quot; alt=&quot;Tomorrow Night Eighties&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-blue.png&quot; alt=&quot;Tomorrow Night Blue&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-bright.png&quot; alt=&quot;Tomorrow Night Bright&quot; /&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>rekeryang</name></author><category term="jekyll" /><category term="github" /><category term="markdown" /><category term="前端" /><category term="blog" /><category term="RubyGems" /><category term="HTML" /><category term="CSS" /><summary type="html">1.环境配置 2.建立博客 3.使用模板 1.环境配置 参考Jekyll官方文档 我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！ 1.安装ruby sudo apt-get install ruby-full build-essential zlib1g-dev 2.配置环境变量 echo '# Install Ruby Gems to ~/gems' &amp;gt;&amp;gt; ~/.bashrc echo 'export GEM_HOME=&quot;$HOME/gems&quot;' &amp;gt;&amp;gt; ~/.bashrc echo 'export PATH=&quot;$HOME/gems/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.bashrc source ~/.bashrc 3.安装jekyll gem install jekyll bundler 4.验证结果 ruby -v jekyll -h puskar@puskar-hrms:~$ ruby -v ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu] puskar@puskar-hrms:~$ jekyll -h jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby 2.建立博客 jekyll new myblog cd myblog bundle exec jekyll server puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml Source: /home/puskar/文档/github/jekyll-text-theme Destination: /home/puskar/文档/github/jekyll-text-theme/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 5.099 seconds. Auto-regeneration: enabled for '/home/puskar/文档/github/jekyll-text-theme' Server address: http://127.0.0.1:4000 Server running... press ctrl-c to stop. 在浏览器中录入 http://localhost:4000，查看结果 3.使用模板 git clone https://github.com/Rekeryang/jekyll.github.io.git Change Log 中文</summary></entry><entry><title type="html">快速开始</title><link href="http://localhost:4000/docs/zh/quick-start" rel="alternate" type="text/html" title="快速开始" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/1.1-quick-start</id><content type="html" xml:base="http://localhost:4000/docs/zh/quick-start">&lt;p&gt;TeXt 是一款 100% 兼容 GitHub Pages 的 Jekyll 主题，你可以通过 Fork、下载或主题等方式安装。&lt;/p&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;文档&quot;&gt;文档&lt;/h2&gt;
+
+&lt;h3 id=&quot;开始&quot;&gt;开始&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/quick-start&quot;&gt;快速开始&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/update-from-1-to-2&quot;&gt;从 1.x 升级到 2.x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;定制&quot;&gt;定制&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/configuration&quot;&gt;配置&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/navigation&quot;&gt;导航栏&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/layouts&quot;&gt;布局&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/logo-and-favicon&quot;&gt;Logo 和 Favicon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/authors&quot;&gt;作者&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/i18n&quot;&gt;国际化&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;内容&quot;&gt;内容&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/writing-posts&quot;&gt;撰写博客&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/additional-styles&quot;&gt;附加样式&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/extensions&quot;&gt;扩展&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/docs/zh/markdown-enhancements&quot;&gt;Markdown 增强&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;示例&quot;&gt;示例&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/test/&quot;&gt;Home&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;列表页&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/archive.html&quot;&gt;Archive&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;归档页&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://rekeryang.com/jekyll-text-theme/samples.html&quot;&gt;Layout Examples&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;各种布局示例&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;支持我&quot;&gt;支持我&lt;/h2&gt;
+
+&lt;p&gt;你的支持是我的动力。你可以通过以下方式支持我：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;给该项目点赞 🌟&lt;/li&gt;
+  &lt;li&gt;关注我的 Github&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;其他资源&quot;&gt;其他资源&lt;/h2&gt;
+
+&lt;p&gt;在 &lt;em&gt;_includes/icon/social&lt;/em&gt; 目录下有很多的社交产品图标，例如 Behance、Flickr、QQ、微信等，方便修改和使用。&lt;/p&gt;
+
+&lt;h2 id=&quot;协议&quot;&gt;协议&lt;/h2&gt;
+
+&lt;p&gt;TeXt Theme 遵循 &lt;a href=&quot;https://github.com/rekeryang/jekyll-text-theme/blob/master/LICENSE&quot;&gt;MIT 协议&lt;/a&gt;。&lt;/p&gt;</content><author><name>rekeryang</name></author><category term="jekyll" /><category term="github" /><category term="markdown" /><category term="前端" /><category term="blog" /><category term="RubyGems" /><category term="HTML" /><category term="CSS" /><summary type="html">环境配置 建立博客 使用模板 代码高亮主题 文档 开始 定制 内容 示例 支持我 其他资源 协议 环境配置 参考Jekyll官方文档 我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！ 1.安装ruby sudo apt-get install ruby-full build-essential zlib1g-dev 2.配置环境变量 echo '# Install Ruby Gems to ~/gems' &amp;gt;&amp;gt; ~/.bashrc echo 'export GEM_HOME=&quot;$HOME/gems&quot;' &amp;gt;&amp;gt; ~/.bashrc echo 'export PATH=&quot;$HOME/gems/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.bashrc source ~/.bashrc 3.安装jekyll gem install jekyll bundler 4.验证结果 ruby -v jekyll -h puskar@puskar-hrms:~$ ruby -v ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu] puskar@puskar-hrms:~$ jekyll -h jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby 建立博客 jekyll new myblog cd myblog bundle exec jekyll server puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml Source: /home/puskar/文档/github/jekyll-text-theme Destination: /home/puskar/文档/github/jekyll-text-theme/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 5.099 seconds. Auto-regeneration: enabled for '/home/puskar/文档/github/jekyll-text-theme' Server address: http://127.0.0.1:4000 Server running... press ctrl-c to stop. 在浏览器中录入 http://localhost:4000，查看结果 使用模板 git clone https://github.com/Rekeryang/jekyll.github.io.git 代码高亮主题 TeXt 使用 Tomorrow 作为它的代码高亮主题。 tomorrow tomorrow-night tomorrow-night-eighties tomorrow-night-blue tomorrow-night-bright 文档 开始 快速开始 从 1.x 升级到 2.x 定制 配置 导航栏 布局 Logo 和 Favicon 作者 国际化 内容 撰写博客 附加样式 扩展 Markdown 增强 示例 Name Description Home 列表页 Archive 归档页 Layout Examples 各种布局示例 支持我 你的支持是我的动力。你可以通过以下方式支持我： 给该项目点赞 🌟 关注我的 Github 其他资源 在 _includes/icon/social 目录下有很多的社交产品图标，例如 Behance、Flickr、QQ、微信等，方便修改和使用。 协议 TeXt Theme 遵循 MIT 协议。</summary></entry><entry><title type="html">快速开始</title><link href="http://localhost:4000/docs/zh/quick-start" rel="alternate" type="text/html" title="快速开始" /><published>2019-03-09T00:00:00+08:00</published><updated>2019-03-09T00:00:00+08:00</updated><id>http://localhost:4000/docs/zh/1.1-quick-start</id><content type="html" xml:base="http://localhost:4000/docs/zh/quick-start">&lt;p&gt;TeXt 是一款 100% 兼容 GitHub Pages 的 Jekyll 主题，你可以通过 Fork、下载或主题等方式安装。&lt;/p&gt;
 
 &lt;p&gt;在这篇文章中，你将学到如何&lt;strong&gt;安装设置主题&lt;/strong&gt;，通过&lt;strong&gt;本地预览&lt;/strong&gt;进行开发以及&lt;strong&gt;编译&lt;/strong&gt;和&lt;strong&gt;发布&lt;/strong&gt;。&lt;/p&gt;
 

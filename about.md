@@ -21,7 +21,7 @@ key: page-about
 * content
 {:toc}
 
-#### 环境配置
+## 环境配置
 参考[Jekyll官方文档](https://jekyllrb.com/docs/installation/)
 
 >我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！
@@ -62,7 +62,7 @@ puskar@puskar-hrms:~$ jekyll -h
 jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby
 ```
 
-#### 建立博客
+## 建立博客
 
 ```
 jekyll new myblog
@@ -96,7 +96,7 @@ Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
 ![实例3](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/3.png)
 
 
-#### 使用模板
+##使用模板
 
 ```
 git clone https://github.com/Rekeryang/jekyll.github.io.git

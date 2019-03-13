@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>github+jekyll搭建个人博客 - rekeryang</title>
 
-<meta name="description" content="1.环境配置  2.建立博客  3.使用模板1.环境配置参考Jekyll官方文档  我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！1.安装rubysudo apt-get install ruby-full b...">
+<meta name="description" content="环境配置  建立博客  使用模板          代码高亮主题        文档          开始      定制      内容        示例  支持我  其他资源  协议环境配置参考Jekyll官方文档  我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubu...">
 <link rel="canonical" href="http://localhost:4000/2019/03/09/github+Jekyll-blog.html"><link rel="alternate" type="application/rss+xml" title="rekeryang" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
@@ -310,12 +310,25 @@
     <meta itemprop="keywords" content="jekyll,github,markdown,前端,blog,RubyGems,HTML,CSS"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet --><div class="article__content" itemprop="articleBody"><ul id="markdown-toc">
-  <li><a href="#1环境配置" id="markdown-toc-1环境配置">1.环境配置</a></li>
-  <li><a href="#2建立博客" id="markdown-toc-2建立博客">2.建立博客</a></li>
-  <li><a href="#3使用模板" id="markdown-toc-3使用模板">3.使用模板</a></li>
+  <li><a href="#环境配置" id="markdown-toc-环境配置">环境配置</a></li>
+  <li><a href="#建立博客" id="markdown-toc-建立博客">建立博客</a></li>
+  <li><a href="#使用模板" id="markdown-toc-使用模板">使用模板</a>    <ul>
+      <li><a href="#代码高亮主题" id="markdown-toc-代码高亮主题">代码高亮主题</a></li>
+    </ul>
+  </li>
+  <li><a href="#文档" id="markdown-toc-文档">文档</a>    <ul>
+      <li><a href="#开始" id="markdown-toc-开始">开始</a></li>
+      <li><a href="#定制" id="markdown-toc-定制">定制</a></li>
+      <li><a href="#内容" id="markdown-toc-内容">内容</a></li>
+    </ul>
+  </li>
+  <li><a href="#示例" id="markdown-toc-示例">示例</a></li>
+  <li><a href="#支持我" id="markdown-toc-支持我">支持我</a></li>
+  <li><a href="#其他资源" id="markdown-toc-其他资源">其他资源</a></li>
+  <li><a href="#协议" id="markdown-toc-协议">协议</a></li>
 </ul>
 
-<h4 id="1环境配置">1.环境配置</h4>
+<h2 id="环境配置">环境配置</h2>
 <p>参考<a href="https://jekyllrb.com/docs/installation/">Jekyll官方文档</a></p>
 
 <blockquote>
@@ -352,7 +365,7 @@ puskar@puskar-hrms:~$ jekyll -h
 jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby
 </code></pre></div></div>
 
-<h4 id="2建立博客">2.建立博客</h4>
+<h2 id="建立博客">建立博客</h2>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new myblog
 </code></pre></div></div>
@@ -380,19 +393,106 @@ Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
 
 <p><img src="https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/3.png" alt="实例3" /></p>
 
-<h4 id="3使用模板">3.使用模板</h4>
+<h2 id="使用模板">使用模板</h2>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/Rekeryang/jekyll.github.io.git
 </code></pre></div></div>
 
+<h3 id="代码高亮主题">代码高亮主题</h3>
+
+<p>TeXt 使用 <a href="https://github.com/chriskempson/tomorrow-theme">Tomorrow</a> 作为它的代码高亮主题。</p>
+
 <table>
+  <thead>
+    <tr>
+      <th><code class="highlighter-rouge">tomorrow</code></th>
+      <th><code class="highlighter-rouge">tomorrow-night</code></th>
+      <th><code class="highlighter-rouge">tomorrow-night-eighties</code></th>
+      <th><code class="highlighter-rouge">tomorrow-night-blue</code></th>
+      <th><code class="highlighter-rouge">tomorrow-night-bright</code></th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td><strong><a href="https://github.com/rekeryang/jekyll-text-theme/blob/master/CHANGELOG.md">Change Log</a></strong></td>
-      <td><strong><a href="https://github.com/rekeryang/jekyll-text-theme/blob/master/README-zh.md">中文</a></strong></td>
+      <td><img src="https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow.png" alt="Tomorrow" /></td>
+      <td><img src="https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night.png" alt="Tomorrow Night" /></td>
+      <td><img src="https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-eighties.png" alt="Tomorrow Night Eighties" /></td>
+      <td><img src="https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-blue.png" alt="Tomorrow Night Blue" /></td>
+      <td><img src="https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-bright.png" alt="Tomorrow Night Bright" /></td>
     </tr>
   </tbody>
 </table>
+
+<h2 id="文档">文档</h2>
+
+<h3 id="开始">开始</h3>
+
+<ul>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/quick-start">快速开始</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/update-from-1-to-2">从 1.x 升级到 2.x</a></li>
+</ul>
+
+<h3 id="定制">定制</h3>
+
+<ul>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/configuration">配置</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/navigation">导航栏</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/layouts">布局</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/logo-and-favicon">Logo 和 Favicon</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/authors">作者</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/i18n">国际化</a></li>
+</ul>
+
+<h3 id="内容">内容</h3>
+
+<ul>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/writing-posts">撰写博客</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/additional-styles">附加样式</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/extensions">扩展</a></li>
+  <li><a href="https://rekeryang.com/jekyll-text-theme/docs/zh/markdown-enhancements">Markdown 增强</a></li>
+</ul>
+
+<h2 id="示例">示例</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://rekeryang.com/jekyll-text-theme/test/">Home</a></td>
+      <td>列表页</td>
+    </tr>
+    <tr>
+      <td><a href="https://rekeryang.com/jekyll-text-theme/archive.html">Archive</a></td>
+      <td>归档页</td>
+    </tr>
+    <tr>
+      <td><a href="https://rekeryang.com/jekyll-text-theme/samples.html">Layout Examples</a></td>
+      <td>各种布局示例</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="支持我">支持我</h2>
+
+<p>你的支持是我的动力。你可以通过以下方式支持我：</p>
+
+<ul>
+  <li>给该项目点赞 🌟</li>
+  <li>关注我的 Github</li>
+</ul>
+
+<h2 id="其他资源">其他资源</h2>
+
+<p>在 <em>_includes/icon/social</em> 目录下有很多的社交产品图标，例如 Behance、Flickr、QQ、微信等，方便修改和使用。</p>
+
+<h2 id="协议">协议</h2>
+
+<p>TeXt Theme 遵循 <a href="https://github.com/rekeryang/jekyll-text-theme/blob/master/LICENSE">MIT 协议</a>。</p>
 </div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2019-03-09T11:40:18+08:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet --><div class="article__subscribe"><div class="subscribe"><i class="fas fa-rss"></i> <a type="application/rss+xml" href="/feed.xml">订阅</a></div></div><div class="article__license"><div class="license">
