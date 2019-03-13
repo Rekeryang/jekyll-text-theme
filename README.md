@@ -57,32 +57,32 @@ TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highl
 
 ### Start
 
-- [Quick Start](https://rekeryang.com/jekyll-TeXt-theme/docs/en/quick-start)
-- [Update from 1.x to 2.x](https://rekeryang.com/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
+- [Quick Start](https://rekeryang.com/jekyll-text-theme/docs/en/quick-start)
+- [Update from 1.x to 2.x](https://rekeryang.com/jekyll-text-theme/docs/en/update-from-1-to-2)
 
 ### Customization
 
-- [Configuration](https://rekeryang.com/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://rekeryang.com/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://rekeryang.com/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://rekeryang.com/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-- [Authors](https://rekeryang.com/jekyll-TeXt-theme/docs/en/authors)
-- [Internationalization](https://rekeryang.com/jekyll-TeXt-theme/docs/en/i18n)
+- [Configuration](https://rekeryang.com/jekyll-text-theme/docs/en/configuration)
+- [Navigation](https://rekeryang.com/jekyll-text-theme/docs/en/navigation)
+- [Layouts](https://rekeryang.com/jekyll-text-theme/docs/en/layouts)
+- [Logo and Favicon](https://rekeryang.com/jekyll-text-theme/docs/en/logo-and-favicon)
+- [Authors](https://rekeryang.com/jekyll-text-theme/docs/en/authors)
+- [Internationalization](https://rekeryang.com/jekyll-text-theme/docs/en/i18n)
 
 ### Content
 
-- [Writing Posts](https://rekeryang.com/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Additional styles](https://rekeryang.com/jekyll-TeXt-theme/docs/en/additional-styles)
-- [Extensions](https://rekeryang.com/jekyll-TeXt-theme/docs/en/extensions)
-- [Markdown Enhancements](https://rekeryang.com/jekyll-TeXt-theme/docs/en/markdown-enhancements)
+- [Writing Posts](https://rekeryang.com/jekyll-text-theme/docs/en/writing-posts)
+- [Additional styles](https://rekeryang.com/jekyll-text-theme/docs/en/additional-styles)
+- [Extensions](https://rekeryang.com/jekyll-text-theme/docs/en/extensions)
+- [Markdown Enhancements](https://rekeryang.com/jekyll-text-theme/docs/en/markdown-enhancements)
 
 ## Demo Pages
 
 | Name | Description |
 | --- | --- |
-| [Home](https://rekeryang.com/jekyll-TeXt-theme/test/) | Home page |
-| [Archive](https://rekeryang.com/jekyll-TeXt-theme/archive.html) | Archive page |
-| [Layout Examples](https://rekeryang.com/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
+| [Home](https://rekeryang.com/jekyll-text-theme/test/) | Home page |
+| [Archive](https://rekeryang.com/jekyll-text-theme/archive.html) | Archive page |
+| [Layout Examples](https://rekeryang.com/jekyll-text-theme/samples.html) | Examples for different layouts |
 
 ## License
 

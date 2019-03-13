@@ -57,32 +57,32 @@ TeXt 使用 [Tomorrow](https://github.com/chriskempson/tomorrow-theme) 作为它
 
 ### 开始
 
-- [快速开始](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/quick-start)
-- [从 1.x 升级到 2.x](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/update-from-1-to-2)
+- [快速开始](https://rekeryang.com/jekyll-text-theme/docs/zh/quick-start)
+- [从 1.x 升级到 2.x](https://rekeryang.com/jekyll-text-theme/docs/zh/update-from-1-to-2)
 
 ### 定制
 
-- [配置](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/configuration)
-- [导航栏](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/navigation)
-- [布局](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/layouts)
-- [Logo 和 Favicon](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/logo-and-favicon)
-- [作者](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/authors)
-- [国际化](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/i18n)
+- [配置](https://rekeryang.com/jekyll-text-theme/docs/zh/configuration)
+- [导航栏](https://rekeryang.com/jekyll-text-theme/docs/zh/navigation)
+- [布局](https://rekeryang.com/jekyll-text-theme/docs/zh/layouts)
+- [Logo 和 Favicon](https://rekeryang.com/jekyll-text-theme/docs/zh/logo-and-favicon)
+- [作者](https://rekeryang.com/jekyll-text-theme/docs/zh/authors)
+- [国际化](https://rekeryang.com/jekyll-text-theme/docs/zh/i18n)
 
 ### 内容
 
-- [撰写博客](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/writing-posts)
-- [附加样式](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/additional-styles)
-- [扩展](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/extensions)
-- [Markdown 增强](https://rekeryang.com/jekyll-TeXt-theme/docs/zh/markdown-enhancements)
+- [撰写博客](https://rekeryang.com/jekyll-text-theme/docs/zh/writing-posts)
+- [附加样式](https://rekeryang.com/jekyll-text-theme/docs/zh/additional-styles)
+- [扩展](https://rekeryang.com/jekyll-text-theme/docs/zh/extensions)
+- [Markdown 增强](https://rekeryang.com/jekyll-text-theme/docs/zh/markdown-enhancements)
 
 ## 示例
 
 | Name | Description |
 | --- | --- |
-| [Home](https://rekeryang.com/jekyll-TeXt-theme/test/) | 列表页 |
-| [Archive](https://rekeryang.com/jekyll-TeXt-theme/archive.html) | 归档页 |
-| [Layout Examples](https://rekeryang.com/jekyll-TeXt-theme/samples.html) | 各种布局示例 |
+| [Home](https://rekeryang.com/jekyll-text-theme/test/) | 列表页 |
+| [Archive](https://rekeryang.com/jekyll-text-theme/archive.html) | 归档页 |
+| [Layout Examples](https://rekeryang.com/jekyll-text-theme/samples.html) | 各种布局示例 |
 
 ## 支持我
 

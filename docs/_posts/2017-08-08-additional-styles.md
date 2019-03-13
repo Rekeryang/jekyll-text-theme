@@ -39,7 +39,7 @@ Success!
 
 <!--more-->
 
-[Documentation](https://rekeryang.com/jekyll-TeXt-theme/docs/en/additional-styles)
+[Documentation](https://rekeryang.com/jekyll-text-theme/docs/en/additional-styles)
 
 ## Alert
 
@@ -89,12 +89,12 @@ Error Text.
 
 | Name | Description |
 | ---- | ---- |
-| Spacing | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/spacing) |
-| Grid | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/grid) |
-| Icons | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/icons) |
-| Image | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/image) |
-| Button | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/button) |
-| Item | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/item) |
-| Card | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/card) |
-| Hero | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/hero) |
-| Swiper | [Doc](https://rekeryang.com/jekyll-TeXt-theme/docs/en/swiper) |
+| Spacing | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/spacing) |
+| Grid | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/grid) |
+| Icons | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/icons) |
+| Image | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/image) |
+| Button | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/button) |
+| Item | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/item) |
+| Card | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/card) |
+| Hero | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/hero) |
+| Swiper | [Doc](https://rekeryang.com/jekyll-text-theme/docs/en/swiper) |

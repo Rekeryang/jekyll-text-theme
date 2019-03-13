@@ -7,6 +7,6 @@ article_header:
     src: /screenshot.jpg
 ---
 
-A Post with Header Image, See [Page layout](https://rekeryang.com/jekyll-TeXt-theme/samples.html#page-layout) for more examples.
+A Post with Header Image, See [Page layout](https://rekeryang.com/jekyll-text-theme/samples.html#page-layout) for more examples.
 
 <!--more-->
