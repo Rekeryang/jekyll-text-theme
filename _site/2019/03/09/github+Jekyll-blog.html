@@ -335,23 +335,23 @@
   <p>我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！</p>
 </blockquote>
 
-<p>1.安装ruby</p>
+<p>###安装ruby</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install ruby-full build-essential zlib1g-dev
 </code></pre></div></div>
 
-<p>2.配置环境变量</p>
+<p>###配置环境变量</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo '# Install Ruby Gems to ~/gems' &gt;&gt; ~/.bashrc
 echo 'export GEM_HOME="$HOME/gems"' &gt;&gt; ~/.bashrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' &gt;&gt; ~/.bashrc
 source ~/.bashrc
 </code></pre></div></div>
-<p>3.安装jekyll</p>
+<p>###安装jekyll</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll bundler
 </code></pre></div></div>
 
-<p>4.验证结果</p>
+<p>###验证结果</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby -v
 </code></pre></div></div>

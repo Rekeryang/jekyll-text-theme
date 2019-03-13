@@ -13,26 +13,26 @@ author: rekeryang
 
 >我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！
 
-1.安装ruby
+###安装ruby
 
 ```
 sudo apt-get install ruby-full build-essential zlib1g-dev
 ```
 
-2.配置环境变量
+###配置环境变量
 ```
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
-3.安装jekyll
+###安装jekyll
 
 ```
 gem install jekyll bundler
 ```
 
-4.验证结果
+###验证结果
 
 ```
 ruby -v
