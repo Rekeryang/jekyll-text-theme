@@ -29,13 +29,19 @@ source ~/.bashrc
 ```
 3.安装jekyll
 
-`gem install jekyll bundler`
+```
+gem install jekyll bundler
+```
 
 4.验证结果
 
-`ruby -v`
+```
+ruby -v
+```
 
-`jekyll -h`
+```
+jekyll -h
+```
 
 ```
 puskar@puskar-hrms:~$ ruby -v
@@ -46,11 +52,17 @@ jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby
 
 #### 2.建立博客
 
-`jekyll new myblog`
+```
+jekyll new myblog
+```
 
-`cd myblog`
+```
+cd myblog
+```
 
-`bundle exec jekyll server`
+```
+bundle exec jekyll server
+```
 
 ```
 puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server
@@ -73,6 +85,7 @@ Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
 
 
 #### 3.使用模板
+
 ```
 git clone https://github.com/Rekeryang/jekyll.github.io.git
 ```

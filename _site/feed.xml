@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2019-03-13T10:43:28+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">rekeryang</title><subtitle>欢迎我的博客</subtitle><author><name>Rekeryang</name></author><entry><title type="html">github+jekyll搭建个人博客</title><link href="http://localhost:4000/2019/03/09/github+Jekyll-blog.html" rel="alternate" type="text/html" title="github+jekyll搭建个人博客" /><published>2019-03-09T11:40:18+08:00</published><updated>2019-03-09T11:40:18+08:00</updated><id>http://localhost:4000/2019/03/09/github+Jekyll-blog</id><content type="html" xml:base="http://localhost:4000/2019/03/09/github+Jekyll-blog.html">&lt;ul id=&quot;markdown-toc&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2019-03-13T10:48:33+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">rekeryang</title><subtitle>欢迎我的博客</subtitle><author><name>Rekeryang</name></author><entry><title type="html">github+jekyll搭建个人博客</title><link href="http://localhost:4000/2019/03/09/github+Jekyll-blog.html" rel="alternate" type="text/html" title="github+jekyll搭建个人博客" /><published>2019-03-09T11:40:18+08:00</published><updated>2019-03-09T11:40:18+08:00</updated><id>http://localhost:4000/2019/03/09/github+Jekyll-blog</id><content type="html" xml:base="http://localhost:4000/2019/03/09/github+Jekyll-blog.html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#1环境配置&quot; id=&quot;markdown-toc-1环境配置&quot;&gt;1.环境配置&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2建立博客&quot; id=&quot;markdown-toc-2建立博客&quot;&gt;2.建立博客&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#3使用模板&quot; id=&quot;markdown-toc-3使用模板&quot;&gt;3.使用模板&lt;/a&gt;&lt;/li&gt;
@@ -24,13 +24,16 @@ source ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;3.安装jekyll&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll bundler&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll bundler
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;4.验证结果&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby -v&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll -h&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll -h
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;puskar@puskar-hrms:~$ ruby -v
 ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
@@ -40,11 +43,14 @@ jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby
 
 &lt;h4 id=&quot;2建立博客&quot;&gt;2.建立博客&lt;/h4&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll new myblog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd myblog&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd myblog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll server&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server
 Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
@@ -64,6 +70,7 @@ Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/3.png&quot; alt=&quot;实例3&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;3使用模板&quot;&gt;3.使用模板&lt;/h4&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/Rekeryang/jekyll.github.io.git
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
