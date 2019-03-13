@@ -279,93 +279,81 @@
 
 <!-- end custom main top snippet --><article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>关于</h1></header></div><meta itemprop="headline" content="关于"><meta itemprop="author" content="Rekeryang"/><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
-<!-- end custom article top snippet --><div class="article__content" itemprop="articleBody"><p><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg" alt="TeXt Theme" /></p>
-
-<p>TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Hello, World!'</span><span class="p">))();</span>
-</code></pre></div></div>
-
-<h2 id="features">Features</h2>
-
-<ul>
-  <li>Responsive</li>
-  <li>Semantic HTML</li>
-  <li>Skins</li>
-  <li>Highlight Theme</li>
-  <li>Internationalization</li>
-  <li>Search</li>
-  <li>Table of contents</li>
-  <li>Authors</li>
-  <li>Additional styles (alert, tag, image, icon, button, grid, etc)</li>
-  <li>Extensions (audios, videos, slides, demos)</li>
-  <li>Markdown enhancements (<a href="https://www.mathjax.org/">MathJax</a>, <a href="https://mermaidjs.github.io/">mermaid</a>, <a href="http://www.chartjs.org/">chartjs</a>)</li>
-  <li>Sharing (<a href="https://www.addtoany.com/">AddToAny</a>, <a href="https://www.addthis.com/">AddThis</a>)</li>
-  <li>Comments (<a href="https://disqus.com/">Disqus</a>, <a href="https://gitalk.github.io/">Gitalk</a>, <a href="https://valine.js.org/en/">Valine</a>)</li>
-  <li>Pageview (<a href="https://leancloud.cn/">LeanCloud</a>)</li>
-  <li>Analytics (<a href="https://analytics.google.com/analytics/web/">Google Analytics</a>)</li>
-  <li>RSS (<a href="https://github.com/jekyll/jekyll-feed">jekyll-feed</a>)</li>
+<!-- end custom article top snippet --><div class="article__content" itemprop="articleBody"><ul id="markdown-toc">
+  <li><a href="#1环境配置" id="markdown-toc-1环境配置">1.环境配置</a></li>
+  <li><a href="#2建立博客" id="markdown-toc-2建立博客">2.建立博客</a></li>
+  <li><a href="#3使用模板" id="markdown-toc-3使用模板">3.使用模板</a></li>
 </ul>
 
-<h2 id="skins">Skins</h2>
+<h4 id="1环境配置">1.环境配置</h4>
+<p>参考<a href="https://jekyllrb.com/docs/installation/">Jekyll官方文档</a></p>
 
-<p>TeXt has 6 built-in skins, you can also set up your own skin.</p>
+<blockquote>
+  <p>我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！</p>
+</blockquote>
+
+<p>1.安装ruby</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install ruby-full build-essential zlib1g-dev
+</code></pre></div></div>
+
+<p>2.配置环境变量</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo '# Install Ruby Gems to ~/gems' &gt;&gt; ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' &gt;&gt; ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' &gt;&gt; ~/.bashrc
+source ~/.bashrc
+</code></pre></div></div>
+<p>3.安装jekyll</p>
+
+<p><code class="highlighter-rouge">gem install jekyll bundler</code></p>
+
+<p>4.验证结果</p>
+
+<p><code class="highlighter-rouge">ruby -v</code></p>
+
+<p><code class="highlighter-rouge">jekyll -h</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>puskar@puskar-hrms:~$ ruby -v
+ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
+puskar@puskar-hrms:~$ jekyll -h
+jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby
+</code></pre></div></div>
+
+<h4 id="2建立博客">2.建立博客</h4>
+
+<p><code class="highlighter-rouge">jekyll new myblog</code></p>
+
+<p><code class="highlighter-rouge">cd myblog</code></p>
+
+<p><code class="highlighter-rouge">bundle exec jekyll server</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server
+Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
+            Source: /home/puskar/文档/github/jekyll-text-theme
+       Destination: /home/puskar/文档/github/jekyll-text-theme/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+                    done in 5.099 seconds.
+ Auto-regeneration: enabled for '/home/puskar/文档/github/jekyll-text-theme'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+</code></pre></div></div>
+
+<p>在浏览器中录入 <a href="http://localhost:4000">http://localhost:4000</a>，查看结果</p>
+
+<p><img src="https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/3.png" alt="实例3" /></p>
+
+<h4 id="3使用模板">3.使用模板</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/Rekeryang/jekyll.github.io.git
+</code></pre></div></div>
 
 <table>
-  <thead>
-    <tr>
-      <th><code class="highlighter-rouge">default</code></th>
-      <th><code class="highlighter-rouge">dark</code></th>
-      <th><code class="highlighter-rouge">forest</code></th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg" alt="Default" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg" alt="Dark" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg" alt="Forest" /></td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th><code class="highlighter-rouge">ocean</code></th>
-      <th><code class="highlighter-rouge">chocolate</code></th>
-      <th><code class="highlighter-rouge">orange</code></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg" alt="Ocean" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg" alt="Chocolate" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg" alt="Orange" /></td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="highlight-theme">Highlight Theme</h3>
-
-<p>TeXt use <a href="https://github.com/chriskempson/tomorrow-theme">Tomorrow</a> as the highlight theme.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th><code class="highlighter-rouge">tomorrow</code></th>
-      <th><code class="highlighter-rouge">tomorrow-night</code></th>
-      <th><code class="highlighter-rouge">tomorrow-night-eighties</code></th>
-      <th><code class="highlighter-rouge">tomorrow-night-blue</code></th>
-      <th><code class="highlighter-rouge">tomorrow-night-bright</code></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png" alt="Tomorrow" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png" alt="Tomorrow Night" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png" alt="Tomorrow Night Eighties" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png" alt="Tomorrow Night Blue" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png" alt="Tomorrow Night Bright" /></td>
+      <td><strong><a href="https://github.com/rekeryang/jekyll-text-theme/blob/master/CHANGELOG.md">Change Log</a></strong></td>
+      <td><strong><a href="https://github.com/rekeryang/jekyll-text-theme/blob/master/README-zh.md">中文</a></strong></td>
     </tr>
   </tbody>
 </table>
@@ -412,7 +400,7 @@
     </div><div class="site-info mt-2">
       <div>© rekeryang 2019,
         Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
-        title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+        title="TeXt is a super customizable Jekyll theme." href="https://github.com/rekeryang/jekyll-text-theme">TeXt Theme</a>.
       </div>
     </div>
   </div>

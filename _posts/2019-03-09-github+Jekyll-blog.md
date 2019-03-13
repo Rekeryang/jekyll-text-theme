@@ -16,7 +16,9 @@ author: rekeryang
 
 1.安装ruby
 
-`sudo apt-get install ruby-full build-essential zlib1g-dev`
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
 
 2.配置环境变量
 ```
@@ -35,7 +37,12 @@ source ~/.bashrc
 
 `jekyll -h`
 
-![实例1](/1.png ''实例1'')
+```
+puskar@puskar-hrms:~$ ruby -v
+ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
+puskar@puskar-hrms:~$ jekyll -h
+jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby
+```
 
 #### 2.建立博客
 
@@ -43,13 +50,31 @@ source ~/.bashrc
 
 `cd myblog`
 
-`jekyll s`
+`bundle exec jekyll server`
 
-![实例2](/2.png ''实例2'')
+```
+puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server
+Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
+            Source: /home/puskar/文档/github/jekyll-text-theme
+       Destination: /home/puskar/文档/github/jekyll-text-theme/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+                    done in 5.099 seconds.
+ Auto-regeneration: enabled for '/home/puskar/文档/github/jekyll-text-theme'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+```
+
 
 在浏览器中录入 [http://localhost:4000](http://localhost:4000)，查看结果
 
-![实例3](/3.png ''实例3')
+![实例3](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/3.png)
 
 
 #### 3.使用模板
+```
+git clone https://github.com/Rekeryang/jekyll.github.io.git
+```
+
+**[Change Log](https://github.com/rekeryang/jekyll-text-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/rekeryang/jekyll-text-theme/blob/master/README-zh.md)**

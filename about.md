@@ -18,49 +18,76 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+* content
+{:toc}
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+#### 1.环境配置
+参考[Jekyll官方文档](https://jekyllrb.com/docs/installation/)
 
-```javascript
-(() => console.log('Hello, World!'))();
+>我用的是ubuntu18.04的一体机，如果是windows10系统的朋友建议安装ubuntu虚拟机，因为windows环境运行Ruby容易出现错误！
+
+1.安装ruby
+
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
 ```
 
-## Features
+2.配置环境变量
+```
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+3.安装jekyll
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+`gem install jekyll bundler`
 
-## Skins
+4.验证结果
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+`ruby -v`
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+`jekyll -h`
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+```
+puskar@puskar-hrms:~$ ruby -v
+ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
+puskar@puskar-hrms:~$ jekyll -h
+jekyll 3.8.5 -- Jekyll is a blog-aware, static site generator in Ruby
+```
 
-### Highlight Theme
+#### 2.建立博客
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+`jekyll new myblog`
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+`cd myblog`
+
+`bundle exec jekyll server`
+
+```
+puskar@puskar-hrms:~/文档/github/jekyll-text-theme$ bundle exec jekyll server
+Configuration file: /home/puskar/文档/github/jekyll-text-theme/_config.yml
+            Source: /home/puskar/文档/github/jekyll-text-theme
+       Destination: /home/puskar/文档/github/jekyll-text-theme/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+                    done in 5.099 seconds.
+ Auto-regeneration: enabled for '/home/puskar/文档/github/jekyll-text-theme'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+```
+
+
+在浏览器中录入 [http://localhost:4000](http://localhost:4000)，查看结果
+
+![实例3](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/3.png)
+
+
+#### 3.使用模板
+
+```
+git clone https://github.com/Rekeryang/jekyll.github.io.git
+```
+
+**[Change Log](https://github.com/rekeryang/jekyll-text-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/rekeryang/jekyll-text-theme/blob/master/README-zh.md)**

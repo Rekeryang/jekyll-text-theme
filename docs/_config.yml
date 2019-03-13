@@ -18,7 +18,7 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://tianqi.name
+url     : https://rekeryang.com
 baseurl : /jekyll-TeXt-theme
 title   : TeXt Theme
 description: >
@@ -51,13 +51,13 @@ author:
   zhihu     :
   douban    :
   linkedin  :
-  github    : kitian616/jekyll-TeXt-theme
+  github    : rekeryang/jekyll-text-theme
   npm       :
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: kitian616/jekyll-TeXt-theme
+repository: rekeryang/jekyll-text-theme
 repository_tree: master
 
 

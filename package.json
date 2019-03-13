@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kitian616/jekyll-TeXt-theme.git"
+    "url": "git+https://github.com/rekeryang/jekyll-text-theme.git"
   },
   "keywords": [
     "jekyll",
@@ -29,9 +29,9 @@
   "author": "Tian Qi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kitian616/jekyll-TeXt-theme/issues"
+    "url": "https://github.com/rekeryang/jekyll-text-theme/issues"
   },
-  "homepage": "https://github.com/kitian616/jekyll-TeXt-theme",
+  "homepage": "https://github.com/rekeryang/jekyll-text-theme",
   "devDependencies": {
     "eslint": "^5.4.0",
     "stylelint": "^9.5.0",
