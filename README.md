@@ -6,13 +6,13 @@
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
 [![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
 
-![TeXt Theme](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/TeXt-home.jpg)
+![text Theme](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/text-home.jpg)
 
-![TeXt Theme Details](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/TeXt-layouts.png)
+![text Theme Details](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/text-layouts.png)
 
-TeXt 是针对个人或团队网站、博客、项目、文档等的一款高度可定制的 Jekyll 主题。它参考了 iOS 11 的风格，有大而突出的标题和圆润的按钮及卡片。
+text 是针对个人或团队网站、博客、项目、文档等的一款高度可定制的 Jekyll 主题。它参考了 iOS 11 的风格，有大而突出的标题和圆润的按钮及卡片。
 
-**[English](https://github.com/rekeryang/jekyll-text-theme/blob/master/README.md)**
+**[English](https://github.com/rekeryang/jekyll-text-theme/blob/master/README-en.md)**
 
 ## 特性
 
@@ -35,7 +35,7 @@ TeXt 是针对个人或团队网站、博客、项目、文档等的一款高度
 
 ## 皮肤
 
-TeXt 内置有 6 套皮肤，你也可以定制自己的皮肤。
+text 内置有 6 套皮肤，你也可以定制自己的皮肤。
 
 | `default` | `dark` | `forest` |
 | --- |  --- | --- |
@@ -47,7 +47,7 @@ TeXt 内置有 6 套皮肤，你也可以定制自己的皮肤。
 
 ### 代码高亮主题
 
-TeXt 使用 [Tomorrow](https://github.com/chriskempson/tomorrow-theme) 作为它的代码高亮主题。
+text 使用 [Tomorrow](https://github.com/chriskempson/tomorrow-theme) 作为它的代码高亮主题。
 
 | `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
 | --- |  --- | --- | --- |  --- |
