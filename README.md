@@ -1,4 +1,4 @@
-# [TeXt Theme](https://github.com/rekeryang/jekyll-text-theme)
+# [Text Theme](https://github.com/rekeryang/jekyll-text-theme)
 
 [![license](https://img.shields.io/github/license/rekeryang/jekyll-text-theme.svg)](https://github.com/rekeryang/jekyll-text-theme/blob/master/LICENSE)
 [![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/rekeryang/jekyll-text-theme/releases)
@@ -10,32 +10,32 @@
 
 ![TeXt Theme Details](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/TeXt-layouts.png)
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+TeXt 是针对个人或团队网站、博客、项目、文档等的一款高度可定制的 Jekyll 主题。它参考了 iOS 11 的风格，有大而突出的标题和圆润的按钮及卡片。
 
-**[Change Log](https://github.com/rekeryang/jekyll-text-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/rekeryang/jekyll-text-theme/blob/master/README-zh.md)**
+**[English](https://github.com/rekeryang/jekyll-text-theme/blob/master/README.md)**
 
-## Features
+## 特性
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+- 响应式
+- HTML 语意化
+- 皮肤
+- 代码高亮主题
+- 国际化
+- 搜索
+- 目录
+- 作者（支持多个）
+- 附加样式（提示，标签，图片，图标，按钮，栅格等）
+- 扩展（音频，视频，幻灯片，在线示例）
+- Markdown 增强（[MathJax](https://www.mathjax.org/)，[mermaid](https://mermaidjs.github.io/)，[chartjs](http://www.chartjs.org/)）
+- 分享（[AddToAny](https://www.addtoany.com/)，[AddThis](https://www.addthis.com/)）
+- 评论（[Disqus](https://disqus.com/)，[Gitalk](https://gitalk.github.io/)，[Valine](https://valine.js.org/en/)）
+- 阅读量统计（[LeanCloud](https://leancloud.cn/)）
+- 站点统计（[Google Analytics](https://analytics.google.com/analytics/web/)）
+- RSS（[jekyll-feed](https://github.com/jekyll/jekyll-feed)）
 
-## Skins
+## 皮肤
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+TeXt 内置有 6 套皮肤，你也可以定制自己的皮肤。
 
 | `default` | `dark` | `forest` |
 | --- |  --- | --- |
@@ -45,45 +45,57 @@ TeXt has 6 built-in skins, you can also set up your own skin.
 | --- |  --- | --- |
 | ![Ocean](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/skins_orange.jpg) |
 
-### Highlight Theme
+### 代码高亮主题
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+TeXt 使用 [Tomorrow](https://github.com/chriskempson/tomorrow-theme) 作为它的代码高亮主题。
 
 | `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
 | --- |  --- | --- | --- |  --- |
 | ![Tomorrow](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
 
-## Documentation
+## 文档
 
-### Start
+### 开始
 
-- [Quick Start](https://rekeryang.com/jekyll-text-theme/docs/en/quick-start)
-- [Update from 1.x to 2.x](https://rekeryang.com/jekyll-text-theme/docs/en/update-from-1-to-2)
+- [快速开始](https://rekeryang.com/jekyll-text-theme/docs/zh/quick-start)
+- [从 1.x 升级到 2.x](https://rekeryang.com/jekyll-text-theme/docs/zh/update-from-1-to-2)
 
-### Customization
+### 定制
 
-- [Configuration](https://rekeryang.com/jekyll-text-theme/docs/en/configuration)
-- [Navigation](https://rekeryang.com/jekyll-text-theme/docs/en/navigation)
-- [Layouts](https://rekeryang.com/jekyll-text-theme/docs/en/layouts)
-- [Logo and Favicon](https://rekeryang.com/jekyll-text-theme/docs/en/logo-and-favicon)
-- [Authors](https://rekeryang.com/jekyll-text-theme/docs/en/authors)
-- [Internationalization](https://rekeryang.com/jekyll-text-theme/docs/en/i18n)
+- [配置](https://rekeryang.com/jekyll-text-theme/docs/zh/configuration)
+- [导航栏](https://rekeryang.com/jekyll-text-theme/docs/zh/navigation)
+- [布局](https://rekeryang.com/jekyll-text-theme/docs/zh/layouts)
+- [Logo 和 Favicon](https://rekeryang.com/jekyll-text-theme/docs/zh/logo-and-favicon)
+- [作者](https://rekeryang.com/jekyll-text-theme/docs/zh/authors)
+- [国际化](https://rekeryang.com/jekyll-text-theme/docs/zh/i18n)
 
-### Content
+### 内容
 
-- [Writing Posts](https://rekeryang.com/jekyll-text-theme/docs/en/writing-posts)
-- [Additional styles](https://rekeryang.com/jekyll-text-theme/docs/en/additional-styles)
-- [Extensions](https://rekeryang.com/jekyll-text-theme/docs/en/extensions)
-- [Markdown Enhancements](https://rekeryang.com/jekyll-text-theme/docs/en/markdown-enhancements)
+- [撰写博客](https://rekeryang.com/jekyll-text-theme/docs/zh/writing-posts)
+- [附加样式](https://rekeryang.com/jekyll-text-theme/docs/zh/additional-styles)
+- [扩展](https://rekeryang.com/jekyll-text-theme/docs/zh/extensions)
+- [Markdown 增强](https://rekeryang.com/jekyll-text-theme/docs/zh/markdown-enhancements)
 
-## Demo Pages
+## 示例
 
 | Name | Description |
 | --- | --- |
-| [Home](https://rekeryang.com/jekyll-text-theme/test/) | Home page |
-| [Archive](https://rekeryang.com/jekyll-text-theme/archive.html) | Archive page |
-| [Layout Examples](https://rekeryang.com/jekyll-text-theme/samples.html) | Examples for different layouts |
+| [Home](https://rekeryang.com/jekyll-text-theme/test/) | 列表页 |
+| [Archive](https://rekeryang.com/jekyll-text-theme/archive.html) | 归档页 |
+| [Layout Examples](https://rekeryang.com/jekyll-text-theme/samples.html) | 各种布局示例 |
 
-## License
+## 支持我
 
-TeXt Theme is [MIT licensed](https://github.com/rekeryang/jekyll-text-theme/blob/master/LICENSE).
+你的支持是我的动力。你可以通过以下方式支持我：
+
+- 给该项目点赞 🌟
+- 关注我的 Github
+
+
+## 其他资源
+
+在 *_includes/icon/social* 目录下有很多的社交产品图标，例如 Behance、Flickr、QQ、微信等，方便修改和使用。
+
+## 协议
+
+Text Theme 遵循 [MIT 协议](https://github.com/rekeryang/jekyll-text-theme/blob/master/LICENSE)。
