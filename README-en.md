@@ -1,4 +1,4 @@
-# [TeXt Theme](https://github.com/rekeryang/jekyll-text-theme)
+# [text Theme](https://github.com/rekeryang/jekyll-text-theme)
 
 [![license](https://img.shields.io/github/license/rekeryang/jekyll-text-theme.svg)](https://github.com/rekeryang/jekyll-text-theme/blob/master/LICENSE)
 [![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/rekeryang/jekyll-text-theme/releases)
@@ -6,11 +6,11 @@
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
 [![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
 
-![TeXt Theme](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/TeXt-home.jpg)
+![text Theme](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/text-home.jpg)
 
-![TeXt Theme Details](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/TeXt-layouts.png)
+![text Theme Details](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/text-layouts.png)
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+text is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
 **[Change Log](https://github.com/rekeryang/jekyll-text-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/rekeryang/jekyll-text-theme/blob/master/README.md)**
 
@@ -35,7 +35,7 @@ TeXt is a super customizable Jekyll theme for personal site, team site, blog, pr
 
 ## Skins
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+text has 6 built-in skins, you can also set up your own skin.
 
 | `default` | `dark` | `forest` |
 | --- |  --- | --- |
@@ -47,7 +47,7 @@ TeXt has 6 built-in skins, you can also set up your own skin.
 
 ### Highlight Theme
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+text use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
 
 | `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
 | --- |  --- | --- | --- |  --- |
@@ -86,4 +86,4 @@ TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highl
 
 ## License
 
-TeXt Theme is [MIT licensed](https://github.com/rekeryang/jekyll-text-theme/blob/master/LICENSE).
+text Theme is [MIT licensed](https://github.com/rekeryang/jekyll-text-theme/blob/master/LICENSE).
