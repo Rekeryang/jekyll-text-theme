@@ -6,9 +6,9 @@
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
 [![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
 
-![text Theme](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/text-home.jpg)
+![text Theme](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/TeXt-home.jpg)
 
-![text Theme Details](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/text-layouts.png)
+![text Theme Details](https://raw.githubusercontent.com/rekeryang/jekyll-text-theme/master/screenshots/TeXt-layouts.png)
 
 text is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
