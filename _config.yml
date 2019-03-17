@@ -19,7 +19,7 @@
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://www.rekeryang.com
-baseurl : /jekyll-text-theme # does not include hostname
+baseurl :  # does not include hostname
 title   : 睿客杨的博客
 description: 欢迎访问我的博客 # this means to ignore newlines until "Language & timezone"
  
