@@ -129,9 +129,9 @@ comments:
   gitalk:
     clientID    : a437850b20b2a26e64d2 # GitHub Application Client ID
     clientSecret: 303e91d42925482a0bf59b1e3157010d2f5c3e3d # GitHub Application Client Secret
-    repository  :  Rekeryang/jekyll-text-theme # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    repository  :  jekyll-text-theme # GitHub repo
+    owner       : rekeryang # GitHub repo owner
+    admin: rekeryang # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
